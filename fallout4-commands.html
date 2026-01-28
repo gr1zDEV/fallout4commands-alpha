@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fallout 4 Console Commands - Complete Cheat Code Database</title>
+    <meta name="description" content="Every Fallout 4 console command you need. God mode, item spawning, teleportation, and 50+ more cheats with examples. PC only.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0d1117;
+            --surface: #161b22;
+            --border: #30363d;
+            --accent: #58a6ff;
+            --text: #c9d1d9;
+            --text-dim: #8b949e;
+            --green: #7ee787;
+            --hover: #21262d;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.5;
+        }
+
+        header {
+            background: var(--surface);
+            border-bottom: 1px solid var(--border);
+            padding: 1.5rem 1rem;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            backdrop-filter: blur(10px);
+        }
+
+        .header-content {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 2rem;
+            flex-wrap: wrap;
+        }
+
+        h1 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: var(--accent);
+        }
+
+        .search {
+            flex: 1;
+            max-width: 400px;
+            position: relative;
+        }
+
+        #search {
+            width: 100%;
+            padding: 0.5rem 0.75rem;
+            background: var(--bg);
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            color: var(--text);
+            font-size: 0.95rem;
+        }
+
+        #search:focus {
+            outline: none;
+            border-color: var(--accent);
+        }
+
+        .promo {
+            background: linear-gradient(90deg, #1a2332 0%, #2d1f3f 100%);
+            border: 1px solid var(--border);
+            padding: 1rem;
+            text-align: center;
+            margin: 1rem;
+        }
+
+        .promo a {
+            color: var(--accent);
+            margin: 0 1rem;
+            text-decoration: none;
+        }
+
+        .promo a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 2rem 1rem;
+            display: grid;
+            grid-template-columns: 200px 1fr;
+            gap: 2rem;
+        }
+
+        aside {
+            position: sticky;
+            top: 100px;
+            height: fit-content;
+        }
+
+        .filters {
+            display: flex;
+            flex-direction: column;
+            gap: 0.25rem;
+        }
+
+        .filter {
+            padding: 0.5rem 0.75rem;
+            background: transparent;
+            border: none;
+            color: var(--text-dim);
+            text-align: left;
+            cursor: pointer;
+            border-radius: 6px;
+            font-size: 0.9rem;
+            transition: all 0.15s;
+        }
+
+        .filter:hover {
+            background: var(--surface);
+            color: var(--text);
+        }
+
+        .filter.active {
+            background: var(--surface);
+            color: var(--accent);
+        }
+
+        .commands {
+            display: grid;
+            gap: 1rem;
+        }
+
+        .cmd {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            padding: 1.25rem;
+            transition: border-color 0.2s;
+        }
+
+        .cmd:hover {
+            border-color: var(--accent);
+        }
+
+        .cmd-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 0.75rem;
+            gap: 1rem;
+        }
+
+        .cmd-name {
+            font-family: 'Share Tech Mono', 'Courier New', monospace;
+            font-size: 1.1rem;
+            color: var(--accent);
+            font-weight: 500;
+        }
+
+        .tag {
+            background: var(--bg);
+            padding: 0.15rem 0.5rem;
+            border-radius: 12px;
+            font-size: 0.75rem;
+            color: var(--text-dim);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .cmd-desc {
+            color: var(--text-dim);
+            margin-bottom: 0.75rem;
+            font-size: 0.95rem;
+        }
+
+        .example {
+            background: var(--bg);
+            padding: 0.75rem;
+            border-radius: 4px;
+            border-left: 2px solid var(--accent);
+            font-family: 'Share Tech Mono', monospace;
+            font-size: 0.9rem;
+            color: var(--green);
+            position: relative;
+        }
+
+        .copy-btn {
+            position: absolute;
+            top: 0.5rem;
+            right: 0.5rem;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            color: var(--text-dim);
+            padding: 0.25rem 0.5rem;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 0.75rem;
+            transition: all 0.2s;
+        }
+
+        .copy-btn:hover {
+            background: var(--hover);
+            color: var(--accent);
+        }
+
+        .copy-btn.copied {
+            color: var(--green);
+            border-color: var(--green);
+        }
+
+        .builder {
+            margin-top: 0.75rem;
+            padding: 0.75rem;
+            background: var(--bg);
+            border-radius: 4px;
+            border: 1px solid var(--border);
+        }
+
+        .builder-label {
+            font-size: 0.85rem;
+            color: var(--text-dim);
+            margin-bottom: 0.5rem;
+        }
+
+        .builder-inputs {
+            display: flex;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+            margin-bottom: 0.5rem;
+        }
+
+        .builder-input, .builder-select {
+            padding: 0.4rem 0.6rem;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 4px;
+            color: var(--text);
+            font-size: 0.85rem;
+            font-family: 'Share Tech Mono', monospace;
+        }
+
+        .builder-input:focus, .builder-select:focus {
+            outline: none;
+            border-color: var(--accent);
+        }
+
+        .builder-output {
+            background: var(--surface);
+            padding: 0.5rem;
+            border-radius: 4px;
+            font-family: 'Share Tech Mono', monospace;
+            color: var(--green);
+            font-size: 0.85rem;
+            margin-top: 0.5rem;
+            position: relative;
+            padding-right: 4rem;
+        }
+
+        .empty {
+            text-align: center;
+            padding: 4rem 2rem;
+            color: var(--text-dim);
+        }
+
+        footer {
+            border-top: 1px solid var(--border);
+            padding: 2rem 1rem;
+            margin-top: 4rem;
+            text-align: center;
+            color: var(--text-dim);
+            font-size: 0.9rem;
+        }
+
+        footer a {
+            color: var(--accent);
+            text-decoration: none;
+            margin: 0 0.75rem;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                grid-template-columns: 1fr;
+            }
+
+            aside {
+                position: static;
+            }
+
+            .filters {
+                flex-direction: row;
+                flex-wrap: wrap;
+            }
+
+            .header-content {
+                flex-direction: column;
+                align-items: stretch;
+            }
+
+            .search {
+                max-width: none;
+            }
+
+            .builder-inputs {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Fallout 4 Console Commands</h1>
+            <div class="search">
+                <input type="text" id="search" placeholder="Search commands..." autocomplete="off">
+            </div>
+        </div>
+    </header>
+
+    <div class="promo">
+        <span style="opacity: 0.7;">Get FO4:</span>
+        <a href="#">Steam</a>
+        <a href="#">Gaming Keyboards</a>
+        <a href="#">YouTube Guides</a>
+    </div>
+
+    <div class="container">
+        <aside>
+            <div class="filters" id="filters"></div>
+        </aside>
+
+        <main>
+            <div class="commands" id="cmds"></div>
+            <div class="empty" id="empty" style="display:none;">Nothing found</div>
+        </main>
+    </div>
+
+    <footer>
+        <div>
+            <a href="#">Nexus Mods</a>
+            <a href="#">r/fo4</a>
+            <a href="#">Item Codes</a>
+        </div>
+        <p style="margin-top: 1rem; opacity: 0.5;">Press ~ to open console (PC only)</p>
+    </footer>
+
+    <script>
+        const items = {
+            caps: '0000000f',
+            'fusion core': '0001f66c',
+            'stimpak': '0001f276',
+            'rad-x': '000fd11b',
+            'radaway': '00023742',
+            'mini nuke': '00058ab4',
+            'nuka cola': '0004835d',
+            '.308 ammo': '0001f278',
+            '5mm ammo': '0001f66a',
+            '.45 ammo': '0001f279',
+            '10mm ammo': '0001f276',
+            'shotgun shells': '0001f66b',
+            'adhesive': '001bf72d',
+            'aluminum': '0006907a',
+            'copper': '0006907c',
+            'steel': '000731a3',
+            'nuclear material': '00069086'
+        };
+
+        const perks = {
+            'gun nut': '0004a0a6',
+            'armorer': '0004a0a5',
+            'science': '0004a0a8',
+            'scrapper': '0004a0aa',
+            'local leader': '0004d88c',
+            'locksmith': '0004c935',
+            'hacker': '0004c933',
+            'lone wanderer': '0004d89d',
+            'bloody mess': '0004a0c5'
+        };
+
+        const locations = {
+            'sanctuary': 'sanctuaryext',
+            'diamond city': 'diamondcityext',
+            'goodneighbor': 'goodneighborext',
+            'vault 111': 'vault111ext',
+            'red rocket': 'redrocketext',
+            'bunker hill': 'bunkerhillext',
+            'the prydwen': 'prydwenext',
+            'institute': 'instituteconcourse'
+        };
+
+        const creatures = {
+            'deathclaw': '000df55c',
+            'super mutant': '00020593',
+            'radroach': '00023ab5',
+            'bloatfly': '00023ab9',
+            'mirelurk': '00024012',
+            'synth': '00000ac2'
+        };
+
+        const data = [
+            {n: "tgm", d: "God mode. Infinite health, AP, ammo, no fall damage.", e: "tgm", c: "player"},
+            {n: "tcl", d: "No clip. Walk through walls and fly.", e: "tcl", c: "world"},
+            {n: "player.setlevel [level]", d: "Set your level instantly.", e: "player.setlevel 50", c: "player", builder: 'level'},
+            {n: "player.additem [id] [qty]", d: "Spawn items. Use item IDs from help command.", e: "player.additem 0000000f 5000", c: "items", builder: 'item'},
+            {n: "killall", d: "Kill everything nearby except essentials.", e: "killall", c: "combat"},
+            {n: "kill", d: "Kill whatever you click on.", e: "kill", c: "combat"},
+            {n: "resurrect", d: "Bring dead NPCs back. Click them first.", e: "resurrect", c: "npc"},
+            {n: "player.setav health [value]", d: "Set max health.", e: "player.setav health 9999", c: "player", builder: 'stat'},
+            {n: "player.modav carryweight [value]", d: "Add carry weight.", e: "player.modav carryweight 10000", c: "player", builder: 'number'},
+            {n: "tm", d: "Toggle UI visibility. Good for screenshots.", e: "tm", c: "misc"},
+            {n: "tfc", d: "Free camera mode.", e: "tfc", c: "misc"},
+            {n: "caqs", d: "Complete ALL quests. Don't use on first playthrough.", e: "caqs", c: "quest"},
+            {n: "player.addperk [id]", d: "Add any perk regardless of level/stats.", e: "player.addperk 0004a0a6", c: "player", builder: 'perk'},
+            {n: "player.removeperk [id]", d: "Remove a perk.", e: "player.removeperk 0004a0a6", c: "player", builder: 'perk'},
+            {n: "setgs fJumpHeightMin [value]", d: "Change jump height.", e: "setgs fJumpHeightMin 200", c: "player", builder: 'number'},
+            {n: "sexchange", d: "Swap gender.", e: "sexchange", c: "player"},
+            {n: "showlooksmenu player 1", d: "Reopen character creator.", e: "showlooksmenu player 1", c: "player"},
+            {n: "unlock", d: "Unlock doors/containers. Click first.", e: "unlock", c: "world"},
+            {n: "coc [location]", d: "Teleport anywhere.", e: "coc sanctuaryext", c: "world", builder: 'location'},
+            {n: "tmm 1", d: "Reveal all map markers.", e: "tmm 1", c: "world"},
+            {n: "tdetect", d: "Toggle AI detection. Become invisible.", e: "tdetect", c: "combat"},
+            {n: "tai", d: "Freeze all AI.", e: "tai", c: "npc"},
+            {n: "tcai", d: "Disable combat AI.", e: "tcai", c: "combat"},
+            {n: "setav speedmult [value]", d: "Movement speed multiplier.", e: "setav speedmult 300", c: "player", builder: 'number'},
+            {n: "player.placeatme [id]", d: "Spawn NPCs/creatures.", e: "player.placeatme 000df55c", c: "world", builder: 'creature'},
+            {n: "set timescale to [value]", d: "Speed up/slow time. Default 20.", e: "set timescale to 5", c: "world", builder: 'number'},
+            {n: "fw [id]", d: "Force weather.", e: "fw 10e1ec", c: "world"},
+            {n: "csb", d: "Clear blood from screen.", e: "csb", c: "misc"},
+            {n: "player.setav ActionPoints [value]", d: "Set max AP.", e: "player.setav ActionPoints 999", c: "player", builder: 'number'},
+            {n: "player.resethealth", d: "Instant full heal.", e: "player.resethealth", c: "player"},
+            {n: "scrapall", d: "Scrap all junk in settlement. Workshop mode only.", e: "scrapall", c: "building"},
+            {n: "player.setav strength [value]", d: "Set SPECIAL stats.", e: "player.setav strength 10", c: "player", builder: 'special'},
+            {n: "getav [attribute]", d: "Check any stat value.", e: "getav health", c: "misc"},
+            {n: "removefromallfactions", d: "Leave all factions.", e: "removefromallfactions", c: "npc"},
+            {n: "help '[term]' 0", d: "Search for item codes.", e: "help 'nuka cola' 0", c: "misc"},
+            {n: "setstage [questid] [stage]", d: "Advance/fix quests.", e: "setstage 00019cfa 10", c: "quest"},
+            {n: "completequest [questid]", d: "Complete a quest.", e: "completequest 00019cfa", c: "quest"},
+            {n: "resetquest [questid]", d: "Reset a quest.", e: "resetquest 00019cfa", c: "quest"},
+            {n: "sqt", d: "Show active quest IDs.", e: "sqt", c: "quest"},
+            {n: "movetoqt", d: "Teleport to quest marker.", e: "movetoqt", c: "quest"},
+            {n: "player.moveto [refid]", d: "Teleport to NPC.", e: "player.moveto 00002f24", c: "world"},
+            {n: "setownership", d: "Make items yours. Click first.", e: "setownership", c: "misc"},
+            {n: "bat [filename]", d: "Run batch file of commands.", e: "bat mods", c: "misc"},
+            {n: "disable", d: "Remove object from world. Click first.", e: "disable", c: "world"},
+            {n: "enable", d: "Re-enable disabled object.", e: "enable", c: "world"},
+            {n: "markfordelete", d: "Permanent delete. Can't undo.", e: "markfordelete", c: "world"},
+            {n: "setscale [value]", d: "Change size. 1=normal, 2=double.", e: "setscale 0.5", c: "misc", builder: 'number'},
+            {n: "player.setav Rads [value]", d: "Set radiation level.", e: "player.setav Rads 0", c: "player", builder: 'number'},
+            {n: "rimod", d: "Toggle damage numbers.", e: "rimod", c: "misc"},
+            {n: "tgp", d: "Toggle grass.", e: "tgp", c: "world"},
+            {n: "twf", d: "Toggle wireframe mode.", e: "twf", c: "misc"}
+        ];
+
+        const cats = {
+            all: 'All',
+            player: 'Player',
+            items: 'Items',
+            world: 'World',
+            combat: 'Combat',
+            npc: 'NPCs',
+            quest: 'Quests',
+            building: 'Building',
+            misc: 'Misc'
+        };
+
+        let active = 'all';
+        let query = '';
+
+        const filters = document.getElementById('filters');
+        const cmds = document.getElementById('cmds');
+        const empty = document.getElementById('empty');
+        const search = document.getElementById('search');
+
+        Object.entries(cats).forEach(([k, v]) => {
+            const btn = document.createElement('button');
+            btn.className = 'filter' + (k === 'all' ? ' active' : '');
+            btn.textContent = v;
+            btn.onclick = () => {
+                active = k;
+                document.querySelectorAll('.filter').forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                render();
+            };
+            filters.appendChild(btn);
+        });
+
+        search.oninput = e => {
+            query = e.target.value.toLowerCase();
+            render();
+        };
+
+        function createBuilder(cmd, idx) {
+            if (!cmd.builder) return '';
+            
+            if (cmd.builder === 'item') {
+                return `
+                    <div class="builder">
+                        <div class="builder-label">Command Builder:</div>
+                        <div class="builder-inputs">
+                            <select class="builder-select" id="item-${idx}">
+                                <option value="">Select item...</option>
+                                ${Object.entries(items).map(([name, id]) => 
+                                    `<option value="${id}">${name}</option>`
+                                ).join('')}
+                            </select>
+                            <input type="number" class="builder-input" id="qty-${idx}" placeholder="Quantity" value="100" style="width: 120px;">
+                        </div>
+                        <div class="builder-output" id="output-${idx}">
+                            player.additem [id] [qty]
+                            <button class="copy-btn" onclick="copyBuilderOutput(${idx}, this)">Copy</button>
+                        </div>
+                    </div>
+                `;
+            }
+
+            if (cmd.builder === 'perk') {
+                return `
+                    <div class="builder">
+                        <div class="builder-label">Command Builder:</div>
+                        <select class="builder-select" id="perk-${idx}" style="width: 100%;">
+                            <option value="">Select perk...</option>
+                            ${Object.entries(perks).map(([name, id]) => 
+                                `<option value="${id}">${name}</option>`
+                            ).join('')}
+                        </select>
+                        <div class="builder-output" id="output-${idx}">
+                            player.addperk [id]
+                            <button class="copy-btn" onclick="copyBuilderOutput(${idx}, this)">Copy</button>
+                        </div>
+                    </div>
+                `;
+            }
+
+            if (cmd.builder === 'location') {
+                return `
+                    <div class="builder">
+                        <div class="builder-label">Command Builder:</div>
+                        <select class="builder-select" id="loc-${idx}" style="width: 100%;">
+                            <option value="">Select location...</option>
+                            ${Object.entries(locations).map(([name, code]) => 
+                                `<option value="${code}">${name}</option>`
+                            ).join('')}
+                        </select>
+                        <div class="builder-output" id="output-${idx}">
+                            coc [location]
+                            <button class="copy-btn" onclick="copyBuilderOutput(${idx}, this)">Copy</button>
+                        </div>
+                    </div>
+                `;
+            }
+
+            if (cmd.builder === 'creature') {
+                return `
+                    <div class="builder">
+                        <div class="builder-label">Command Builder:</div>
+                        <select class="builder-select" id="creature-${idx}" style="width: 100%;">
+                            <option value="">Select creature...</option>
+                            ${Object.entries(creatures).map(([name, id]) => 
+                                `<option value="${id}">${name}</option>`
+                            ).join('')}
+                        </select>
+                        <div class="builder-output" id="output-${idx}">
+                            player.placeatme [id]
+                            <button class="copy-btn" onclick="copyBuilderOutput(${idx}, this)">Copy</button>
+                        </div>
+                    </div>
+                `;
+            }
+
+            if (cmd.builder === 'level') {
+                return `
+                    <div class="builder">
+                        <div class="builder-label">Command Builder:</div>
+                        <input type="number" class="builder-input" id="level-${idx}" placeholder="Level" value="50" style="width: 150px;">
+                        <div class="builder-output" id="output-${idx}">
+                            player.setlevel [level]
+                            <button class="copy-btn" onclick="copyBuilderOutput(${idx}, this)">Copy</button>
+                        </div>
+                    </div>
+                `;
+            }
+
+            if (cmd.builder === 'special') {
+                return `
+                    <div class="builder">
+                        <div class="builder-label">Command Builder:</div>
+                        <div class="builder-inputs">
+                            <select class="builder-select" id="special-${idx}">
+                                <option value="strength">Strength</option>
+                                <option value="perception">Perception</option>
+                                <option value="endurance">Endurance</option>
+                                <option value="charisma">Charisma</option>
+                                <option value="intelligence">Intelligence</option>
+                                <option value="agility">Agility</option>
+                                <option value="luck">Luck</option>
+                            </select>
+                            <input type="number" class="builder-input" id="val-${idx}" placeholder="Value" value="10" style="width: 100px;">
+                        </div>
+                        <div class="builder-output" id="output-${idx}">
+                            player.setav strength [value]
+                            <button class="copy-btn" onclick="copyBuilderOutput(${idx}, this)">Copy</button>
+                        </div>
+                    </div>
+                `;
+            }
+
+            if (cmd.builder === 'stat') {
+                return `
+                    <div class="builder">
+                        <div class="builder-label">Command Builder:</div>
+                        <input type="number" class="builder-input" id="stat-${idx}" placeholder="Value" value="9999" style="width: 150px;">
+                        <div class="builder-output" id="output-${idx}">
+                            player.setav health [value]
+                            <button class="copy-btn" onclick="copyBuilderOutput(${idx}, this)">Copy</button>
+                        </div>
+                    </div>
+                `;
+            }
+
+            if (cmd.builder === 'number') {
+                const defaultVal = cmd.n.includes('speed') ? '300' : cmd.n.includes('jump') ? '200' : '100';
+                return `
+                    <div class="builder">
+                        <div class="builder-label">Command Builder:</div>
+                        <input type="number" class="builder-input" id="num-${idx}" placeholder="Value" value="${defaultVal}" style="width: 150px;">
+                        <div class="builder-output" id="output-${idx}">
+                            ${cmd.e}
+                            <button class="copy-btn" onclick="copyBuilderOutput(${idx}, this)">Copy</button>
+                        </div>
+                    </div>
+                `;
+            }
+
+            return '';
+        }
+
+        function attachBuilderListeners(cmd, idx) {
+            if (!cmd.builder) return;
+
+            const output = document.getElementById(`output-${idx}`);
+            
+            if (cmd.builder === 'item') {
+                const itemSelect = document.getElementById(`item-${idx}`);
+                const qtyInput = document.getElementById(`qty-${idx}`);
+                
+                const update = () => {
+                    const id = itemSelect.value;
+                    const qty = qtyInput.value || '100';
+                    if (id) {
+                        const text = `player.additem ${id} ${qty}`;
+                        output.innerHTML = `${text}<button class="copy-btn" onclick="copyBuilderOutput(${idx}, this)">Copy</button>`;
+                    }
+                };
+                
+                itemSelect.onchange = update;
+                qtyInput.oninput = update;
+            }
+
+            if (cmd.builder === 'perk') {
+                const perkSelect = document.getElementById(`perk-${idx}`);
+                perkSelect.onchange = () => {
+                    const id = perkSelect.value;
+                    if (id) {
+                        const text = `player.addperk ${id}`;
+                        output.innerHTML = `${text}<button class="copy-btn" onclick="copyBuilderOutput(${idx}, this)">Copy</button>`;
+                    }
+                };
+            }
+
+            if (cmd.builder === 'location') {
+                const locSelect = document.getElementById(`loc-${idx}`);
+                locSelect.onchange = () => {
+                    const code = locSelect.value;
+                    if (code) {
+                        const text = `coc ${code}`;
+                        output.innerHTML = `${text}<button class="copy-btn" onclick="copyBuilderOutput(${idx}, this)">Copy</button>`;
+                    }
+                };
+            }
+
+            if (cmd.builder === 'creature') {
+                const creatureSelect = document.getElementById(`creature-${idx}`);
+                creatureSelect.onchange = () => {
+                    const id = creatureSelect.value;
+                    if (id) {
+                        const text = `player.placeatme ${id}`;
+                        output.innerHTML = `${text}<button class="copy-btn" onclick="copyBuilderOutput(${idx}, this)">Copy</button>`;
+                    }
+                };
+            }
+
+            if (cmd.builder === 'level') {
+                const levelInput = document.getElementById(`level-${idx}`);
+                levelInput.oninput = () => {
+                    const val = levelInput.value || '50';
+                    const text = `player.setlevel ${val}`;
+                    output.innerHTML = `${text}<button class="copy-btn" onclick="copyBuilderOutput(${idx}, this)">Copy</button>`;
+                };
+            }
+
+            if (cmd.builder === 'special') {
+                const specialSelect = document.getElementById(`special-${idx}`);
+                const valInput = document.getElementById(`val-${idx}`);
+                
+                const update = () => {
+                    const stat = specialSelect.value;
+                    const val = valInput.value || '10';
+                    const text = `player.setav ${stat} ${val}`;
+                    output.innerHTML = `${text}<button class="copy-btn" onclick="copyBuilderOutput(${idx}, this)">Copy</button>`;
+                };
+                
+                specialSelect.onchange = update;
+                valInput.oninput = update;
+            }
+
+            if (cmd.builder === 'stat') {
+                const statInput = document.getElementById(`stat-${idx}`);
+                statInput.oninput = () => {
+                    const val = statInput.value || '9999';
+                    const text = `player.setav health ${val}`;
+                    output.innerHTML = `${text}<button class="copy-btn" onclick="copyBuilderOutput(${idx}, this)">Copy</button>`;
+                };
+            }
+
+            if (cmd.builder === 'number') {
+                const numInput = document.getElementById(`num-${idx}`);
+                numInput.oninput = () => {
+                    const val = numInput.value;
+                    if (val) {
+                        const base = cmd.e.split(' ');
+                        base[base.length - 1] = val;
+                        const text = base.join(' ');
+                        output.innerHTML = `${text}<button class="copy-btn" onclick="copyBuilderOutput(${idx}, this)">Copy</button>`;
+                    }
+                };
+            }
+        }
+
+        function copyToClipboard(text, btn) {
+            navigator.clipboard.writeText(text).then(() => {
+                btn.textContent = 'Copied!';
+                btn.classList.add('copied');
+                setTimeout(() => {
+                    btn.textContent = 'Copy';
+                    btn.classList.remove('copied');
+                }, 2000);
+            });
+        }
+
+        function copyBuilderOutput(idx, btn) {
+            const output = document.getElementById(`output-${idx}`);
+            const text = output.childNodes[0].textContent.trim();
+            navigator.clipboard.writeText(text).then(() => {
+                btn.textContent = 'Copied!';
+                btn.classList.add('copied');
+                setTimeout(() => {
+                    btn.textContent = 'Copy';
+                    btn.classList.remove('copied');
+                }, 2000);
+            });
+        }
+
+        function render() {
+            const filtered = data.filter(cmd => {
+                const cat = active === 'all' || cmd.c === active;
+                const q = !query || cmd.n.toLowerCase().includes(query) || 
+                          cmd.d.toLowerCase().includes(query);
+                return cat && q;
+            });
+
+            if (!filtered.length) {
+                cmds.style.display = 'none';
+                empty.style.display = 'block';
+                return;
+            }
+
+            cmds.style.display = 'grid';
+            empty.style.display = 'none';
+            
+            cmds.innerHTML = filtered.map((cmd, idx) => `
+                <div class="cmd">
+                    <div class="cmd-top">
+                        <code class="cmd-name">${cmd.n}</code>
+                        <span class="tag">${cmd.c}</span>
+                    </div>
+                    <div class="cmd-desc">${cmd.d}</div>
+                    <div class="example">
+                        ${cmd.e}
+                        <button class="copy-btn" onclick="copyToClipboard('${cmd.e}', this)">Copy</button>
+                    </div>
+                    ${createBuilder(cmd, idx)}
+                </div>
+            `).join('');
+
+            filtered.forEach((cmd, idx) => attachBuilderListeners(cmd, idx));
+        }
+
+        render();
+    </script>
+</body>
+</html>

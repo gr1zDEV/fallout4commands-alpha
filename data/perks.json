@@ -1,0 +1,300 @@
+[
+  { "name": "Iron Fist", "type": "Perk ID", "rank": 1, "id": "0001dafe", "command": "player.addperk 0001dafe" },
+  { "name": "Iron Fist", "type": "Perk ID", "rank": 2, "id": "0001daff", "command": "player.addperk 0001daff" },
+  { "name": "Iron Fist", "type": "Perk ID", "rank": 3, "id": "0001db00", "command": "player.addperk 0001db00" },
+  { "name": "Iron Fist", "type": "Perk ID", "rank": 4, "id": "00065e42", "command": "player.addperk 00065e42" },
+  { "name": "Iron Fist", "type": "Perk ID", "rank": 5, "id": "00065e43", "command": "player.addperk 00065e43" },
+
+  { "name": "Big Leagues", "type": "Perk ID", "rank": 1, "id": "0004a0b5", "command": "player.addperk 0004a0b5" },
+  { "name": "Big Leagues", "type": "Perk ID", "rank": 2, "id": "000e36fc", "command": "player.addperk 000e36fc" },
+  { "name": "Big Leagues", "type": "Perk ID", "rank": 3, "id": "000e36fd", "command": "player.addperk 000e36fd" },
+  { "name": "Big Leagues", "type": "Perk ID", "rank": 4, "id": "000e36fe", "command": "player.addperk 000e36fe" },
+  { "name": "Big Leagues", "type": "Perk ID", "rank": 5, "id": "00065e05", "command": "player.addperk 00065e05" },
+
+  { "name": "Armorer", "type": "Perk ID", "rank": 1, "id": "0004b254", "command": "player.addperk 0004b254" },
+  { "name": "Armorer", "type": "Perk ID", "rank": 2, "id": "0004b255", "command": "player.addperk 0004b255" },
+  { "name": "Armorer", "type": "Perk ID", "rank": 3, "id": "0004b256", "command": "player.addperk 0004b256" },
+  { "name": "Armorer", "type": "Perk ID", "rank": 4, "id": "001797ea", "command": "player.addperk 001797ea" },
+
+  { "name": "Blacksmith", "type": "Perk ID", "rank": 1, "id": "0004b253", "command": "player.addperk 0004b253" },
+  { "name": "Blacksmith", "type": "Perk ID", "rank": 2, "id": "0004b26a", "command": "player.addperk 0004b26a" },
+  { "name": "Blacksmith", "type": "Perk ID", "rank": 3, "id": "000264d8", "command": "player.addperk 000264d8" },
+
+  { "name": "Heavy Gunner", "type": "Perk ID", "rank": 1, "id": "0004a0d6", "command": "player.addperk 0004a0d6" },
+  { "name": "Heavy Gunner", "type": "Perk ID", "rank": 2, "id": "0004a0d7", "command": "player.addperk 0004a0d7" },
+  { "name": "Heavy Gunner", "type": "Perk ID", "rank": 3, "id": "0004a0d8", "command": "player.addperk 0004a0d8" },
+  { "name": "Heavy Gunner", "type": "Perk ID", "rank": 4, "id": "00065e2a", "command": "player.addperk 00065e2a" },
+  { "name": "Heavy Gunner", "type": "Perk ID", "rank": 5, "id": "00065e2b", "command": "player.addperk 00065e2b" },
+
+  { "name": "Strong Back", "type": "Perk ID", "rank": 1, "id": "0004b24e", "command": "player.addperk 0004b24e" },
+  { "name": "Strong Back", "type": "Perk ID", "rank": 2, "id": "00065e5b", "command": "player.addperk 00065e5b" },
+  { "name": "Strong Back", "type": "Perk ID", "rank": 3, "id": "00065e5c", "command": "player.addperk 00065e5c" },
+  { "name": "Strong Back", "type": "Perk ID", "rank": 4, "id": "001d2489", "command": "player.addperk 001d2489" },
+
+  { "name": "Steady Aim", "type": "Perk ID", "rank": 1, "id": "001d2487", "command": "player.addperk 001d2487" },
+  { "name": "Steady Aim", "type": "Perk ID", "rank": 2, "id": "001d2488", "command": "player.addperk 001d2488" },
+
+  { "name": "Basher", "type": "Perk ID", "rank": 1, "id": "00065df9", "command": "player.addperk 00065df9" },
+  { "name": "Basher", "type": "Perk ID", "rank": 2, "id": "00065dfa", "command": "player.addperk 00065dfa" },
+  { "name": "Basher", "type": "Perk ID", "rank": 3, "id": "00065dfb", "command": "player.addperk 00065dfb" },
+  { "name": "Basher", "type": "Perk ID", "rank": 4, "id": "00065dfc", "command": "player.addperk 00065dfc" },
+
+  { "name": "Rooted", "type": "Perk ID", "rank": 1, "id": "001d247f", "command": "player.addperk 001d247f" },
+  { "name": "Rooted", "type": "Perk ID", "rank": 2, "id": "001d2480", "command": "player.addperk 001d2480" },
+  { "name": "Rooted", "type": "Perk ID", "rank": 3, "id": "001d2482", "command": "player.addperk 001d2482" },
+
+  { "name": "Pain Train", "type": "Perk ID", "rank": 1, "id": "0004d89b", "command": "player.addperk 0004d89b" },
+  { "name": "Pain Train", "type": "Perk ID", "rank": 2, "id": "00065e3c", "command": "player.addperk 00065e3c" },
+  { "name": "Pain Train", "type": "Perk ID", "rank": 3, "id": "00065e3d", "command": "player.addperk 00065e3d" },
+
+  { "name": "Pickpocket", "type": "Perk ID", "rank": 1, "id": "0004d88a", "command": "player.addperk 0004d88a" },
+  { "name": "Pickpocket", "type": "Perk ID", "rank": 2, "id": "000e3702", "command": "player.addperk 000e3702" },
+  { "name": "Pickpocket", "type": "Perk ID", "rank": 3, "id": "000e3703", "command": "player.addperk 000e3703" },
+  { "name": "Pickpocket", "type": "Perk ID", "rank": 4, "id": "001d248f", "command": "player.addperk 001d248f" },
+
+  { "name": "Rifleman", "type": "Perk ID", "rank": 1, "id": "0004a0b6", "command": "player.addperk 0004a0b6" },
+  { "name": "Rifleman", "type": "Perk ID", "rank": 2, "id": "0004a0b7", "command": "player.addperk 0004a0b7" },
+  { "name": "Rifleman", "type": "Perk ID", "rank": 3, "id": "0004a0b8", "command": "player.addperk 0004a0b8" },
+  { "name": "Rifleman", "type": "Perk ID", "rank": 4, "id": "0006fa20", "command": "player.addperk 0006fa20" },
+  { "name": "Rifleman", "type": "Perk ID", "rank": 5, "id": "00065e52", "command": "player.addperk 00065e52" },
+
+  { "name": "Awareness", "type": "Perk ID", "rank": 1, "id": "000d2287", "command": "player.addperk 000d2287" },
+
+  { "name": "Locksmith", "type": "Perk ID", "rank": 1, "id": "000523ff", "command": "player.addperk 000523ff" },
+  { "name": "Locksmith", "type": "Perk ID", "rank": 2, "id": "00052400", "command": "player.addperk 00052400" },
+  { "name": "Locksmith", "type": "Perk ID", "rank": 3, "id": "00052401", "command": "player.addperk 00052401" },
+  { "name": "Locksmith", "type": "Perk ID", "rank": 4, "id": "001d246a", "command": "player.addperk 001d246a" },
+
+  { "name": "Demolition Expert", "type": "Perk ID", "rank": 1, "id": "0004c923", "command": "player.addperk 0004c923" },
+  { "name": "Demolition Expert", "type": "Perk ID", "rank": 2, "id": "0004c924", "command": "player.addperk 0004c924" },
+  { "name": "Demolition Expert", "type": "Perk ID", "rank": 3, "id": "0004c925", "command": "player.addperk 0004c925" },
+  { "name": "Demolition Expert", "type": "Perk ID", "rank": 4, "id": "00065e13", "command": "player.addperk 00065e13" },
+
+  { "name": "Night Person", "type": "Perk ID", "rank": 1, "id": "0004c93b", "command": "player.addperk 0004c93b" },
+  { "name": "Night Person", "type": "Perk ID", "rank": 2, "id": "001d2495", "command": "player.addperk 001d2495" },
+
+  { "name": "Refractor", "type": "Perk ID", "rank": 1, "id": "000ca99d", "command": "player.addperk 000ca99d" },
+  { "name": "Refractor", "type": "Perk ID", "rank": 2, "id": "000ca99e", "command": "player.addperk 000ca99e" },
+  { "name": "Refractor", "type": "Perk ID", "rank": 3, "id": "000ca99f", "command": "player.addperk 000ca99f" },
+  { "name": "Refractor", "type": "Perk ID", "rank": 4, "id": "00065e4b", "command": "player.addperk 00065e4b" },
+  { "name": "Refractor", "type": "Perk ID", "rank": 5, "id": "00065e4c", "command": "player.addperk 00065e4c" },
+
+  { "name": "Sniper", "type": "Perk ID", "rank": 1, "id": "0004c92a", "command": "player.addperk 0004c92a" },
+  { "name": "Sniper", "type": "Perk ID", "rank": 2, "id": "0004c92b", "command": "player.addperk 0004c92b" },
+  { "name": "Sniper", "type": "Perk ID", "rank": 3, "id": "0004c92c", "command": "player.addperk 0004c92c" },
+
+  { "name": "Penetrator", "type": "Perk ID", "rank": 1, "id": "00024aff", "command": "player.addperk 00024aff" },
+  { "name": "Penetrator", "type": "Perk ID", "rank": 2, "id": "001d2477", "command": "player.addperk 001d2477" },
+
+  { "name": "Concentrated Fire", "type": "Perk ID", "rank": 1, "id": "0004d890", "command": "player.addperk 0004d890" },
+  { "name": "Concentrated Fire", "type": "Perk ID", "rank": 2, "id": "001d2459", "command": "player.addperk 001d2459" },
+  { "name": "Concentrated Fire", "type": "Perk ID", "rank": 3, "id": "001d245a", "command": "player.addperk 001d245a" },
+
+  { "name": "Toughness", "type": "Perk ID", "rank": 1, "id": "0004a0ab", "command": "player.addperk 0004a0ab" },
+  { "name": "Toughness", "type": "Perk ID", "rank": 2, "id": "0004a0ae", "command": "player.addperk 0004a0ae" },
+  { "name": "Toughness", "type": "Perk ID", "rank": 3, "id": "0004a0af", "command": "player.addperk 0004a0af" },
+  { "name": "Toughness", "type": "Perk ID", "rank": 4, "id": "00065e5d", "command": "player.addperk 00065e5d" },
+  { "name": "Toughness", "type": "Perk ID", "rank": 5, "id": "00065e5e", "command": "player.addperk 00065e5e" },
+
+  { "name": "Lead Belly", "type": "Perk ID", "rank": 1, "id": "0004a0b9", "command": "player.addperk 0004a0b9" },
+  { "name": "Lead Belly", "type": "Perk ID", "rank": 2, "id": "00024b00", "command": "player.addperk 00024b00" },
+  { "name": "Lead Belly", "type": "Perk ID", "rank": 3, "id": "00024b01", "command": "player.addperk 00024b01" },
+
+  { "name": "Lifegiver", "type": "Perk ID", "rank": 1, "id": "0004a0cf", "command": "player.addperk 0004a0cf" },
+  { "name": "Lifegiver", "type": "Perk ID", "rank": 2, "id": "00024b00", "command": "player.addperk 00024b00" },
+  { "name": "Lifegiver", "type": "Perk ID", "rank": 3, "id": "001d2467", "command": "player.addperk 001d2467" },
+
+  { "name": "Chem Resistant", "type": "Perk ID", "rank": 1, "id": "0004a0d5", "command": "player.addperk 0004a0d5" },
+  { "name": "Chem Resistant", "type": "Perk ID", "rank": 2, "id": "00065e0c", "command": "player.addperk 00065e0c" },
+
+  { "name": "Aquaboy / Aquagirl", "type": "Perk ID", "rank": 1, "id": "001d248d", "command": "player.addperk 001d248d" },
+  { "name": "Aquaboy / Aquagirl", "type": "Perk ID", "rank": 2, "id": "001d248d", "command": "player.addperk 001d248d" },
+
+  { "name": "Rad Resistant", "type": "Perk ID", "rank": 1, "id": "001d2479", "command": "player.addperk 001d2479" },
+  { "name": "Rad Resistant", "type": "Perk ID", "rank": 2, "id": "001d247a", "command": "player.addperk 001d247a" },
+  { "name": "Rad Resistant", "type": "Perk ID", "rank": 3, "id": "001d247b", "command": "player.addperk 001d247b" },
+
+  { "name": "Adamantium Skeleton", "type": "Perk ID", "rank": 1, "id": "0004c92d", "command": "player.addperk 0004c92d" },
+  { "name": "Adamantium Skeleton", "type": "Perk ID", "rank": 2, "id": "00024afd", "command": "player.addperk 00024afd" },
+  { "name": "Adamantium Skeleton", "type": "Perk ID", "rank": 3, "id": "00024afe", "command": "player.addperk 00024afe" },
+
+  { "name": "Cannibal", "type": "Perk ID", "rank": 1, "id": "0004b259", "command": "player.addperk 0004b259" },
+  { "name": "Cannibal", "type": "Perk ID", "rank": 2, "id": "001d1a62", "command": "player.addperk 001d1a62" },
+  { "name": "Cannibal", "type": "Perk ID", "rank": 3, "id": "001d1a63", "command": "player.addperk 001d1a63" },
+
+  { "name": "Ghoulish", "type": "Perk ID", "rank": 1, "id": "0004d89e", "command": "player.addperk 0004d89e" },
+  { "name": "Ghoulish", "type": "Perk ID", "rank": 2, "id": "00065e22", "command": "player.addperk 00065e22" },
+  { "name": "Ghoulish", "type": "Perk ID", "rank": 3, "id": "00065e23", "command": "player.addperk 00065e23" },
+
+  { "name": "Solar Powered", "type": "Perk ID", "rank": 1, "id": "0004d8a7", "command": "player.addperk 0004d8a7" },
+  { "name": "Solar Powered", "type": "Perk ID", "rank": 2, "id": "001d2484", "command": "player.addperk 001d2484" },
+  { "name": "Solar Powered", "type": "Perk ID", "rank": 3, "id": "001d2485", "command": "player.addperk 001d2485" },
+
+  { "name": "Cap Collector", "type": "Perk ID", "rank": 1, "id": "001d2456", "command": "player.addperk 001d2456" },
+  { "name": "Cap Collector", "type": "Perk ID", "rank": 2, "id": "000d75e2", "command": "player.addperk 000d75e2" },
+  { "name": "Cap Collector", "type": "Perk ID", "rank": 3, "id": "001d2457", "command": "player.addperk 001d2457" },
+
+  { "name": "Lady Killer / Black Widow", "type": "Perk ID", "rank": 1, "id": "00019aa3", "command": "player.addperk 00019aa3" },
+  { "name": "Lady Killer / Black Widow", "type": "Perk ID", "rank": 2, "id": "00065e33", "command": "player.addperk 00065e33" },
+  { "name": "Lady Killer / Black Widow", "type": "Perk ID", "rank": 3, "id": "00065e34", "command": "player.addperk 00065e34" },
+
+  { "name": "Lone Wanderer", "type": "Perk ID", "rank": 1, "id": "001d246b", "command": "player.addperk 001d246b" },
+  { "name": "Lone Wanderer", "type": "Perk ID", "rank": 2, "id": "001d246d", "command": "player.addperk 001d246d" },
+  { "name": "Lone Wanderer", "type": "Perk ID", "rank": 3, "id": "001d246e", "command": "player.addperk 001d246e" },
+
+  { "name": "Attack Dog", "type": "Perk ID", "rank": 1, "id": "0004b26d", "command": "player.addperk 0004b26d" },
+  { "name": "Attack Dog", "type": "Perk ID", "rank": 2, "id": "001d244d", "command": "player.addperk 001d244d" },
+  { "name": "Attack Dog", "type": "Perk ID", "rank": 3, "id": "001d244e", "command": "player.addperk 001d244e" },
+
+  { "name": "Animal Friend", "type": "Perk ID", "rank": 1, "id": "0001e67f", "command": "player.addperk 0001e67f" },
+  { "name": "Animal Friend", "type": "Perk ID", "rank": 2, "id": "0004a0d9", "command": "player.addperk 0004a0d9" },
+  { "name": "Animal Friend", "type": "Perk ID", "rank": 3, "id": "001d2450", "command": "player.addperk 001d2450" },
+
+  { "name": "Local Leader", "type": "Perk ID", "rank": 1, "id": "0004d88d", "command": "player.addperk 0004d88d" },
+  { "name": "Local Leader", "type": "Perk ID", "rank": 2, "id": "001d2468", "command": "player.addperk 001d2468" },
+
+  { "name": "Party Boy / Party Girl", "type": "Perk ID", "rank": 1, "id": "0004d887", "command": "player.addperk 0004d887" },
+  { "name": "Party Boy / Party Girl", "type": "Perk ID", "rank": 2, "id": "001d2473", "command": "player.addperk 001d2473" },
+  { "name": "Party Boy / Party Girl", "type": "Perk ID", "rank": 3, "id": "001d2474", "command": "player.addperk 001d2474" },
+
+  { "name": "Inspirational", "type": "Perk ID", "rank": 1, "id": "001d2461", "command": "player.addperk 001d2461" },
+  { "name": "Inspirational", "type": "Perk ID", "rank": 2, "id": "001d2462", "command": "player.addperk 001d2462" },
+  { "name": "Inspirational", "type": "Perk ID", "rank": 3, "id": "001d2463", "command": "player.addperk 001d2463" },
+
+  { "name": "Wasteland Whisperer", "type": "Perk ID", "rank": 1, "id": "001d248a", "command": "player.addperk 001d248a" },
+  { "name": "Wasteland Whisperer", "type": "Perk ID", "rank": 2, "id": "001d248b", "command": "player.addperk 001d248b" },
+  { "name": "Wasteland Whisperer", "type": "Perk ID", "rank": 3, "id": "001d248c", "command": "player.addperk 001d248c" },
+
+  { "name": "Intimidation", "type": "Perk ID", "rank": 1, "id": "001d02b5", "command": "player.addperk 001d02b5" },
+  { "name": "Intimidation", "type": "Perk ID", "rank": 2, "id": "001d02b6", "command": "player.addperk 001d02b6" },
+  { "name": "Intimidation", "type": "Perk ID", "rank": 3, "id": "001d02b7", "command": "player.addperk 001d02b7" },
+
+  { "name": "V.A.N.S.", "type": "Perk ID", "rank": 1, "id": "000207d1", "command": "player.addperk 000207d1" },
+
+  { "name": "Medic", "type": "Perk ID", "rank": 1, "id": "0004c926", "command": "player.addperk 0004c926" },
+  { "name": "Medic", "type": "Perk ID", "rank": 2, "id": "0006fa1c", "command": "player.addperk 0006fa1c" },
+  { "name": "Medic", "type": "Perk ID", "rank": 3, "id": "0006fa1d", "command": "player.addperk 0006fa1d" },
+  { "name": "Medic", "type": "Perk ID", "rank": 4, "id": "00065e35", "command": "player.addperk 00065e35" },
+
+  { "name": "Gun Nut", "type": "Perk ID", "rank": 1, "id": "0004a0da", "command": "player.addperk 0004a0da" },
+  { "name": "Gun Nut", "type": "Perk ID", "rank": 2, "id": "0004a0db", "command": "player.addperk 0004a0db" },
+  { "name": "Gun Nut", "type": "Perk ID", "rank": 3, "id": "0004a0dc", "command": "player.addperk 0004a0dc" },
+  { "name": "Gun Nut", "type": "Perk ID", "rank": 4, "id": "0016578e", "command": "player.addperk 0016578e" },
+
+  { "name": "Hacker", "type": "Perk ID", "rank": 1, "id": "00052403", "command": "player.addperk 00052403" },
+  { "name": "Hacker", "type": "Perk ID", "rank": 2, "id": "00052404", "command": "player.addperk 00052404" },
+  { "name": "Hacker", "type": "Perk ID", "rank": 3, "id": "00052405", "command": "player.addperk 00052405" },
+  { "name": "Hacker", "type": "Perk ID", "rank": 4, "id": "001d245d", "command": "player.addperk 001d245d" },
+
+  { "name": "Scrapper", "type": "Perk ID", "rank": 1, "id": "00065e65", "command": "player.addperk 00065e65" },
+  { "name": "Scrapper", "type": "Perk ID", "rank": 2, "id": "001d2483", "command": "player.addperk 001d2483" },
+
+  { "name": "Science!", "type": "Perk ID", "rank": 1, "id": "000264d9", "command": "player.addperk 000264d9" },
+  { "name": "Science!", "type": "Perk ID", "rank": 2, "id": "000264da", "command": "player.addperk 000264da" },
+  { "name": "Science!", "type": "Perk ID", "rank": 3, "id": "000264db", "command": "player.addperk 000264db" },
+  { "name": "Science!", "type": "Perk ID", "rank": 4, "id": "0016578f", "command": "player.addperk 0016578f" },
+
+  { "name": "Chemist", "type": "Perk ID", "rank": 1, "id": "000e36ff", "command": "player.addperk 000e36ff" },
+  { "name": "Chemist", "type": "Perk ID", "rank": 2, "id": "000e3700", "command": "player.addperk 000e3700" },
+  { "name": "Chemist", "type": "Perk ID", "rank": 3, "id": "000e3701", "command": "player.addperk 000e3701" },
+  { "name": "Chemist", "type": "Perk ID", "rank": 4, "id": "001d2458", "command": "player.addperk 001d2458" },
+
+  { "name": "Robotics Expert", "type": "Perk ID", "rank": 1, "id": "0004d889", "command": "player.addperk 0004d889" },
+  { "name": "Robotics Expert", "type": "Perk ID", "rank": 2, "id": "00065e64", "command": "player.addperk 00065e64" },
+  { "name": "Robotics Expert", "type": "Perk ID", "rank": 3, "id": "001acf96", "command": "player.addperk 001acf96" },
+
+  { "name": "Nuclear Physicist", "type": "Perk ID", "rank": 1, "id": "001d246f", "command": "player.addperk 001d246f" },
+  { "name": "Nuclear Physicist", "type": "Perk ID", "rank": 2, "id": "001d2470", "command": "player.addperk 001d2470" },
+  { "name": "Nuclear Physicist", "type": "Perk ID", "rank": 3, "id": "001d2471", "command": "player.addperk 001d2471" },
+
+  { "name": "Nerd Rage!", "type": "Perk ID", "rank": 1, "id": "0004d886", "command": "player.addperk 0004d886" },
+  { "name": "Nerd Rage!", "type": "Perk ID", "rank": 2, "id": "00065e37", "command": "player.addperk 00065e37" },
+  { "name": "Nerd Rage!", "type": "Perk ID", "rank": 3, "id": "00065e38", "command": "player.addperk 00065e38" },
+
+  { "name": "Gunslinger", "type": "Perk ID", "rank": 1, "id": "0004a09f", "command": "player.addperk 0004a09f" },
+  { "name": "Gunslinger", "type": "Perk ID", "rank": 2, "id": "0004a0a9", "command": "player.addperk 0004a0a9" },
+  { "name": "Gunslinger", "type": "Perk ID", "rank": 3, "id": "0004a0aa", "command": "player.addperk 0004a0aa" },
+  { "name": "Gunslinger", "type": "Perk ID", "rank": 4, "id": "0006fa1e", "command": "player.addperk 0006fa1e" },
+  { "name": "Gunslinger", "type": "Perk ID", "rank": 5, "id": "00065e24", "command": "player.addperk 00065e24" },
+
+  { "name": "Commando", "type": "Perk ID", "rank": 1, "id": "0004a0c5", "command": "player.addperk 0004a0c5" },
+  { "name": "Commando", "type": "Perk ID", "rank": 2, "id": "0004a0c6", "command": "player.addperk 0004a0c6" },
+  { "name": "Commando", "type": "Perk ID", "rank": 3, "id": "0004a0c7", "command": "player.addperk 0004a0c7" },
+  { "name": "Commando", "type": "Perk ID", "rank": 4, "id": "0006fa24", "command": "player.addperk 0006fa24" },
+  { "name": "Commando", "type": "Perk ID", "rank": 5, "id": "00065e0d", "command": "player.addperk 00065e0d" },
+
+  { "name": "Sneak", "type": "Perk ID", "rank": 1, "id": "0004c935", "command": "player.addperk 0004c935" },
+  { "name": "Sneak", "type": "Perk ID", "rank": 2, "id": "000b9882", "command": "player.addperk 000b9882" },
+  { "name": "Sneak", "type": "Perk ID", "rank": 3, "id": "000b9883", "command": "player.addperk 000b9883" },
+  { "name": "Sneak", "type": "Perk ID", "rank": 4, "id": "000b9884", "command": "player.addperk 000b9884" },
+  { "name": "Sneak", "type": "Perk ID", "rank": 5, "id": "000b9881", "command": "player.addperk 000b9881" },
+
+  { "name": "Mister Sandman", "type": "Perk ID", "rank": 1, "id": "0004b258", "command": "player.addperk 0004b258" },
+  { "name": "Mister Sandman", "type": "Perk ID", "rank": 2, "id": "001d2490", "command": "player.addperk 001d2490" },
+  { "name": "Mister Sandman", "type": "Perk ID", "rank": 3, "id": "001d2491", "command": "player.addperk 001d2491" },
+
+  { "name": "Action Boy / Action Girl", "type": "Perk ID", "rank": 1, "id": "0004d869", "command": "player.addperk 0004d869" },
+  { "name": "Action Boy / Action Girl", "type": "Perk ID", "rank": 2, "id": "00065df5", "command": "player.addperk 00065df5" },
+
+  { "name": "Moving Target", "type": "Perk ID", "rank": 1, "id": "0004ddee", "command": "player.addperk 0004ddee" },
+  { "name": "Moving Target", "type": "Perk ID", "rank": 2, "id": "001d2492", "command": "player.addperk 001d2492" },
+  { "name": "Moving Target", "type": "Perk ID", "rank": 3, "id": "001e0791", "command": "player.addperk 001e0791" },
+
+  { "name": "Ninja", "type": "Perk ID", "rank": 1, "id": "0004d8a6", "command": "player.addperk 0004d8a6" },
+  { "name": "Ninja", "type": "Perk ID", "rank": 2, "id": "000e3704", "command": "player.addperk 000e3704" },
+  { "name": "Ninja", "type": "Perk ID", "rank": 3, "id": "000e3705", "command": "player.addperk 000e3705" },
+
+  { "name": "Quick Hands", "type": "Perk ID", "rank": 1, "id": "000221fc", "command": "player.addperk 000221fc" },
+  { "name": "Quick Hands", "type": "Perk ID", "rank": 2, "id": "001d2478", "command": "player.addperk 001d2478" },
+
+  { "name": "Blitz", "type": "Perk ID", "rank": 1, "id": "001d2451", "command": "player.addperk 001d2451" },
+  { "name": "Blitz", "type": "Perk ID", "rank": 2, "id": "001d2452", "command": "player.addperk 001d2452" },
+
+  { "name": "Gun Fu", "type": "Perk ID", "rank": 1, "id": "0004d881", "command": "player.addperk 0004d881" },
+  { "name": "Gun Fu", "type": "Perk ID", "rank": 2, "id": "001d244f", "command": "player.addperk 001d244f" },
+  { "name": "Gun Fu", "type": "Perk ID", "rank": 3, "id": "001d245c", "command": "player.addperk 001d245c" },
+
+  { "name": "Fortune Finder", "type": "Perk ID", "rank": 1, "id": "0004c942", "command": "player.addperk 0004c942" },
+  { "name": "Fortune Finder", "type": "Perk ID", "rank": 2, "id": "001acf98", "command": "player.addperk 001acf98" },
+  { "name": "Fortune Finder", "type": "Perk ID", "rank": 3, "id": "001acf99", "command": "player.addperk 001acf99" },
+  { "name": "Fortune Finder", "type": "Perk ID", "rank": 4, "id": "00215cd4", "command": "player.addperk 00215cd4" },
+
+  { "name": "Scrounger", "type": "Perk ID", "rank": 1, "id": "0004a0b0", "command": "player.addperk 0004a0b0" },
+  { "name": "Scrounger", "type": "Perk ID", "rank": 2, "id": "001acf9a", "command": "player.addperk 001acf9a" },
+  { "name": "Scrounger", "type": "Perk ID", "rank": 3, "id": "001acf9b", "command": "player.addperk 001acf9b" },
+  { "name": "Scrounger", "type": "Perk ID", "rank": 4, "id": "001eb99c", "command": "player.addperk 001eb99c" },
+
+  { "name": "Bloody Mess", "type": "Perk ID", "rank": 1, "id": "0004a0bb", "command": "player.addperk 0004a0bb" },
+  { "name": "Bloody Mess", "type": "Perk ID", "rank": 2, "id": "001d2453", "command": "player.addperk 001d2453" },
+  { "name": "Bloody Mess", "type": "Perk ID", "rank": 3, "id": "001d2454", "command": "player.addperk 001d2454" },
+  { "name": "Bloody Mess", "type": "Perk ID", "rank": 4, "id": "001f418e", "command": "player.addperk 001f418e" },
+
+  { "name": "Mysterious Stranger", "type": "Perk ID", "rank": 1, "id": "0004c929", "command": "player.addperk 0004c929" },
+  { "name": "Mysterious Stranger", "type": "Perk ID", "rank": 2, "id": "001d2493", "command": "player.addperk 001d2493" },
+  { "name": "Mysterious Stranger", "type": "Perk ID", "rank": 3, "id": "001d2494", "command": "player.addperk 001d2494" },
+
+  { "name": "Idiot Savant", "type": "Perk ID", "rank": 1, "id": "001d245e", "command": "player.addperk 001d245e" },
+  { "name": "Idiot Savant", "type": "Perk ID", "rank": 2, "id": "001d245f", "command": "player.addperk 001d245f" },
+  { "name": "Idiot Savant", "type": "Perk ID", "rank": 3, "id": "001d2460", "command": "player.addperk 001d2460" },
+
+  { "name": "Better Criticals", "type": "Perk ID", "rank": 1, "id": "0004d87a", "command": "player.addperk 0004d87a" },
+  { "name": "Better Criticals", "type": "Perk ID", "rank": 2, "id": "00065e03", "command": "player.addperk 00065e03" },
+  { "name": "Better Criticals", "type": "Perk ID", "rank": 3, "id": "00065e04", "command": "player.addperk 00065e04" },
+
+  { "name": "Critical Banker", "type": "Perk ID", "rank": 1, "id": "0004c91f", "command": "player.addperk 0004c91f" },
+  { "name": "Critical Banker", "type": "Perk ID", "rank": 2, "id": "0004c920", "command": "player.addperk 0004c920" },
+  { "name": "Critical Banker", "type": "Perk ID", "rank": 3, "id": "0004c921", "command": "player.addperk 0004c921" },
+
+  { "name": "Grim Reaper's Sprint", "type": "Perk ID", "rank": 1, "id": "0004d8a2", "command": "player.addperk 0004d8a2" },
+  { "name": "Grim Reaper's Sprint", "type": "Perk ID", "rank": 2, "id": "00065e3e", "command": "player.addperk 00065e3e" },
+  { "name": "Grim Reaper's Sprint", "type": "Perk ID", "rank": 3, "id": "00065e3f", "command": "player.addperk 00065e3f" },
+
+  { "name": "Four Leaf Clover", "type": "Perk ID", "rank": 1, "id": "0004d895", "command": "player.addperk 0004d895" },
+  { "name": "Four Leaf Clover", "type": "Perk ID", "rank": 2, "id": "00065e20", "command": "player.addperk 00065e20" },
+  { "name": "Four Leaf Clover", "type": "Perk ID", "rank": 3, "id": "00065e21", "command": "player.addperk 00065e21" },
+  { "name": "Four Leaf Clover", "type": "Perk ID", "rank": 4, "id": "001d245b", "command": "player.addperk 001d245b" },
+
+  { "name": "Ricochet", "type": "Perk ID", "rank": 1, "id": "001d247c", "command": "player.addperk 001d247c" },
+  { "name": "Ricochet", "type": "Perk ID", "rank": 2, "id": "001d247d", "command": "player.addperk 001d247d" },
+  { "name": "Ricochet", "type": "Perk ID", "rank": 3, "id": "001d247e", "command": "player.addperk 001d247e" }
+]

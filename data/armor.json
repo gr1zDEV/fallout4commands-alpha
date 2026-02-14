@@ -1,0 +1,101 @@
+[
+  { "name": "Raider Chest Piece", "type": "Armor", "id": "0018E415", "command": "player.additem 0018E415" },
+  { "name": "Raider Left Arm", "type": "Armor", "id": "0018E411", "command": "player.additem 0018E411" },
+  { "name": "Raider Right Arm", "type": "Armor", "id": "0018E413", "command": "player.additem 0018E413" },
+  { "name": "Raider Left Leg", "type": "Armor", "id": "0018E40F", "command": "player.additem 0018E40F" },
+  { "name": "Raider Right Leg", "type": "Armor", "id": "0018E40D", "command": "player.additem 0018E40D" },
+
+  { "name": "Leather Chest Piece", "type": "Armor", "id": "0007B9C6", "command": "player.additem 0007B9C6" },
+  { "name": "Leather Left Arm", "type": "Armor", "id": "0007B9C7", "command": "player.additem 0007B9C7" },
+  { "name": "Leather Right Arm", "type": "Armor", "id": "0007B9C3", "command": "player.additem 0007B9C3" },
+  { "name": "Leather Left Leg", "type": "Armor", "id": "0007B9C4", "command": "player.additem 0007B9C4" },
+  { "name": "Leather Right Leg", "type": "Armor", "id": "0007B9C5", "command": "player.additem 0007B9C5" },
+
+  { "name": "Metal Helmet", "type": "Armor", "id": "000787D3", "command": "player.additem 000787D3" },
+  { "name": "Metal Chest Piece", "type": "Armor", "id": "000536C4", "command": "player.additem 000536C4" },
+  { "name": "Metal Left Arm", "type": "Armor", "id": "0004B933", "command": "player.additem 0004B933" },
+  { "name": "Metal Right Arm", "type": "Armor", "id": "000536C1", "command": "player.additem 000536C1" },
+  { "name": "Metal Left Leg", "type": "Armor", "id": "000536C2", "command": "player.additem 000536C2" },
+  { "name": "Metal Right Leg", "type": "Armor", "id": "000536C3", "command": "player.additem 000536C3" },
+
+  { "name": "Combat Armor Helmet", "type": "Armor", "id": "0011E2C8", "command": "player.additem 0011E2C8" },
+  { "name": "Combat Armor Chest Piece", "type": "Armor", "id": "0011D3C3", "command": "player.additem 0011D3C3" },
+  { "name": "Combat Armor Left Arm", "type": "Armor", "id": "0011D3C7", "command": "player.additem 0011D3C7" },
+  { "name": "Combat Armor Right Arm", "type": "Armor", "id": "0011D3C6", "command": "player.additem 0011D3C6" },
+  { "name": "Combat Armor Left Leg", "type": "Armor", "id": "0011D3C5", "command": "player.additem 0011D3C5" },
+  { "name": "Combat Armor Right Leg", "type": "Armor", "id": "0011D3C4", "command": "player.additem 0011D3C4" },
+
+  { "name": "Synth Helmet", "type": "Armor", "id": "00187976", "command": "player.additem 00187976" },
+  { "name": "Synth Field Helmet", "type": "Armor", "id": "0018796A", "command": "player.additem 0018796A" },
+  { "name": "Synth Chest Piece", "type": "Armor", "id": "00187974", "command": "player.additem 00187974" },
+  { "name": "Synth Left Arm", "type": "Armor", "id": "0018796C", "command": "player.additem 0018796C" },
+  { "name": "Synth Right Arm", "type": "Armor", "id": "0018796E", "command": "player.additem 0018796E" },
+  { "name": "Synth Left Leg", "type": "Armor", "id": "00187972", "command": "player.additem 00187972" },
+  { "name": "Synth Right Leg", "type": "Armor", "id": "00187970", "command": "player.additem 00187970" },
+
+  { "name": "DC Guard Helm", "type": "Armor", "id": "000AF0F6", "command": "player.additem 000AF0F6" },
+  { "name": "DC Guard Heavy Helmet", "type": "Armor", "id": "000AF0F7", "command": "player.additem 000AF0F7" },
+  { "name": "DC Guard Umpire's Pads", "type": "Armor", "id": "000AF0EE", "command": "player.additem 000AF0EE" },
+  { "name": "DC Guard Left Arm Armor", "type": "Armor", "id": "000AF0F1", "command": "player.additem 000AF0F1" },
+  { "name": "DC Guard Right Arm Armor", "type": "Armor", "id": "000AF0F2", "command": "player.additem 000AF0F2" },
+  { "name": "DC Guard Left Shoulder", "type": "Armor", "id": "000AF0EA", "command": "player.additem 000AF0EA" },
+  { "name": "DC Guard Right Shoulder", "type": "Armor", "id": "000AF0ED", "command": "player.additem 000AF0ED" },
+  { "name": "DC Guard Left Forearm", "type": "Armor", "id": "000AF0EB", "command": "player.additem 000AF0EB" },
+  { "name": "DC Guard Right Forearm", "type": "Armor", "id": "000AF0EC", "command": "player.additem 000AF0EC" },
+
+  { "name": "Vault-Tec Security Helmet (dirty)", "type": "Armor", "id": "000821B6", "command": "player.additem 000821B6" },
+  { "name": "Vault-Tec Security Helmet (clean)", "type": "Armor", "id": "001D8853", "command": "player.additem 001D8853" },
+  { "name": "Security Helmet", "type": "Armor", "id": "00156C0B", "command": "player.additem 00156C0B" },
+  { "name": "Vault 81 Security Armor (dirty)", "type": "Armor", "id": "00154F10", "command": "player.additem 00154F10" },
+  { "name": "Vault-Tec Security Armor (dirty)", "type": "Armor", "id": "000821B4", "command": "player.additem 000821B4" },
+  { "name": "Vault-Tec Security Armor (clean)", "type": "Armor", "id": "001D884F", "command": "player.additem 001D884F" },
+  { "name": "Covenant Security Armor", "type": "Armor", "id": "00156C0D", "command": "player.additem 00156C0D" },
+
+  { "name": "Mantis Left Armguard", "type": "Armor", "id": "00248374", "command": "player.additem 00248374" },
+  { "name": "Mantis Left Greave", "type": "Armor", "id": "00248372", "command": "player.additem 00248372" },
+  { "name": "Protector's Left Armguard", "type": "Armor", "id": "00248370", "command": "player.additem 00248370" },
+  { "name": "Protector's Right Armguard", "type": "Armor", "id": "00248371", "command": "player.additem 00248371" },
+
+  { "name": "Wastelander's Chest Piece", "type": "Armor", "id": "001F61EC", "command": "player.additem 001F61EC" },
+  { "name": "Wastelander's Right Leg", "type": "Armor", "id": "001F61ED", "command": "player.additem 001F61ED" },
+
+  { "name": "Apocalypse Chestplate", "type": "Armor", "id": "0022B605", "command": "player.additem 0022B605" },
+  { "name": "Apocalypse Left Greave", "type": "Armor", "id": "0022B606", "command": "player.additem 0022B606" },
+
+  { "name": "Champion Chestpiece", "type": "Armor", "id": "001F61EA", "command": "player.additem 001F61EA" },
+  { "name": "Champion Left Arm", "type": "Armor", "id": "001F61EE", "command": "player.additem 001F61EE" },
+  { "name": "Champion Right Arm", "type": "Armor", "id": "001F61EB", "command": "player.additem 001F61EB" },
+
+  { "name": "Devastator's Chestpiece", "type": "Armor", "id": "00248378", "command": "player.additem 00248378" },
+  { "name": "Devastator's Right Greave", "type": "Armor", "id": "00248379", "command": "player.additem 00248379" },
+
+  { "name": "Commando Chest Piece", "type": "Armor", "id": "001F61F5", "command": "player.additem 001F61F5" },
+  { "name": "Commando Helmet", "type": "Armor", "id": "001F61F4", "command": "player.additem 001F61F4" },
+
+  { "name": "Steadfast BOS Combat Armor Chest Piece", "type": "Armor", "id": "002267E0", "command": "player.additem 002267E0" },
+
+  { "name": "Destroyer's Helmet", "type": "Armor", "id": "001F61F1", "command": "player.additem 001F61F1" },
+  { "name": "Destroyer's Chest Piece", "type": "Armor", "id": "001F61EF", "command": "player.additem 001F61EF" },
+  { "name": "Destroyer's Left Arm", "type": "Armor", "id": "001F61F2", "command": "player.additem 001F61F2" },
+  { "name": "Destroyer's Left Leg", "type": "Armor", "id": "001F61F0", "command": "player.additem 001F61F0" },
+  { "name": "Destroyer's Right Leg", "type": "Armor", "id": "001F61F3", "command": "player.additem 001F61F3" },
+
+  { "name": "Freefall Armor Left Leg", "type": "Armor", "id": "0005A7C9", "command": "player.additem 0005A7C9" },
+  { "name": "Freefall Armor Right Leg", "type": "Armor", "id": "0005A7CB", "command": "player.additem 0005A7CB" },
+  { "name": "Freefall Armor Full Set", "type": "Armor", "id": "0005A7C7", "command": "player.additem 0005A7C7" },
+
+  { "name": "Overseer's Left Armguard", "type": "Armor", "id": "00248376", "command": "player.additem 00248376" },
+  { "name": "Overseer's Right Armguard", "type": "Armor", "id": "00248377", "command": "player.additem 00248377" },
+
+  { "name": "Black Ops Chestpiece", "type": "Armor", "id": "00248373", "command": "player.additem 00248373" },
+  { "name": "Black Ops Right Shinguard", "type": "Armor", "id": "00248375", "command": "player.additem 00248375" },
+
+  { "name": "Mark 2 Synth Chest Piece", "type": "Armor", "id": "001F61F6", "command": "player.additem 001F61F6" },
+  { "name": "Mark 2 Synth Helmet", "type": "Armor", "id": "001F61F7", "command": "player.additem 001F61F7" },
+
+  { "name": "Mark 3 Synth Chest Piece", "type": "Armor", "id": "0024837A", "command": "player.additem 0024837A" },
+  { "name": "Mark 3 Synth Right Arm", "type": "Armor", "id": "0024837B", "command": "player.additem 0024837B" },
+
+  { "name": "Mark 4 Synth Chest Piece", "type": "Armor", "id": "0024837C", "command": "player.additem 0024837C" },
+  { "name": "Mark 4 Synth Left Leg", "type": "Armor", "id": "0024837D", "command": "player.additem 0024837D" }
+]

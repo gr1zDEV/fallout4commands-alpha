@@ -1,118 +1,2468 @@
 [
-  { "name": ".44 Pistol", "type": "Weapon ID", "id": "000ce97d", "command": "player.additem 000ce97d" },
-  { "name": "10mm Pistol", "type": "Weapon ID", "id": "00004822", "command": "player.additem 00004822" },
-  { "name": "2076 World Series Baseball Bat", "type": "Weapon ID", "id": "000e9a43", "command": "player.additem 000e9a43" },
-  { "name": "Alien Blaster Pistol", "type": "Weapon ID", "id": "000ff995", "command": "player.additem 000ff995" },
-  { "name": "Artillery Smoke Grenade", "type": "Weapon ID", "id": "0012e2ca", "command": "player.additem 0012e2ca" },
-  { "name": "Ashmaker", "type": "Weapon ID", "id": "001f252e", "command": "player.additem 001f252e" },
-  { "name": "Assault Rifle", "type": "Weapon ID", "id": "0000463f", "command": "player.additem 0000463f" },
-  { "name": "Baseball Bat", "type": "Weapon ID", "id": "0008e736", "command": "player.additem 0008e736" },
-  { "name": "Baseball Grenade", "type": "Weapon ID", "id": "00107bd6", "command": "player.additem 00107bd6" },
-  { "name": "Big Boy", "type": "Weapon ID", "id": "0021a53e", "command": "player.additem 0021a53e" },
-  { "name": "Big Jim", "type": "Weapon ID", "id": "0023e5ec", "command": "player.additem 0023e5ec" },
-  { "name": "Board", "type": "Weapon ID", "id": "0005c250", "command": "player.additem 0005c250" },
-  { "name": "Bottlecap Mine", "type": "Weapon ID", "id": "0010771f", "command": "player.additem 0010771f" },
-  { "name": "Boxing Glove", "type": "Weapon ID", "id": "0016498f", "command": "player.additem 0016498f" },
-  { "name": "Broadsider", "type": "Weapon ID", "id": "000fd11b", "command": "player.additem 000fd11b" },
-  { "name": "Combat Knife", "type": "Weapon ID", "id": "000913ca", "command": "player.additem 000913ca" },
-  { "name": "Combat Shotgun", "type": "Weapon ID", "id": "0014831c", "command": "player.additem 0014831c" },
-  { "name": "Cryo Mine", "type": "Weapon ID", "id": "0010c669", "command": "player.additem 0010c669" },
-  { "name": "Cryogenic Grenade", "type": "Weapon ID", "id": "000ff21d", "command": "player.additem 000ff21d" },
-  { "name": "Cryolator", "type": "Weapon ID", "id": "00171b2b", "command": "player.additem 00171b2b" },
-  { "name": "Death From Above", "type": "Weapon ID", "id": "00225969", "command": "player.additem 00225969" },
-  { "name": "Deathclaw Gauntlet", "type": "Weapon ID", "id": "000d8576", "command": "player.additem 000d8576" },
-  { "name": "Deliverer Pistol", "type": "Weapon ID", "id": "000dc8e7", "command": "player.additem 000dc8e7" },
-  { "name": "Double-barrel Shotgun", "type": "Weapon ID", "id": "00092217", "command": "player.additem 00092217" },
-  { "name": "Eddie's Peace", "type": "Weapon ID", "id": "00225ae9", "command": "player.additem 00225ae9" },
-  { "name": "Experiment 18-A", "type": "Weapon ID", "id": "001f61e9", "command": "player.additem 001f61e9" },
-  { "name": "Fat Man", "type": "Weapon ID", "id": "000bd56f", "command": "player.additem 000bd56f" },
-  { "name": "Final Judgment", "type": "Weapon ID", "id": "00225abe", "command": "player.additem 00225abe" },
-  { "name": "Flamer", "type": "Weapon ID", "id": "000e5881", "command": "player.additem 000e5881" },
-  { "name": "Flare Gun", "type": "Weapon ID", "id": "001025ac", "command": "player.additem 001025ac" },
-  { "name": "Fragmentation Grenade", "type": "Weapon ID", "id": "000eebed", "command": "player.additem 000eebed" },
-  { "name": "Fragmentation Mine", "type": "Weapon ID", "id": "000e56c2", "command": "player.additem 000e56c2" },
-  { "name": "Gamma Gun", "type": "Weapon ID", "id": "000ddb7c", "command": "player.additem 000ddb7c" },
-  { "name": "Gatling Laser", "type": "Weapon ID", "id": "000e27bc", "command": "player.additem 000e27bc" },
-  { "name": "Gauss Rifle", "type": "Weapon ID", "id": "000d1eb0", "command": "player.additem 000d1eb0" },
-  { "name": "Good Intentions", "type": "Weapon ID", "id": "0022537b", "command": "player.additem 0022537b" },
-  { "name": "Grognak's Axe", "type": "Weapon ID", "id": "00183fcd", "command": "player.additem 00183fcd" },
-  { "name": "Hallucigen Gas Grenade", "type": "Weapon ID", "id": "000e98e5", "command": "player.additem 000e98e5" },
-  { "name": "Homing Beacon", "type": "Weapon ID", "id": "00065dec", "command": "player.additem 00065dec" },
-  { "name": "Hunting Rifle", "type": "Weapon ID", "id": "0004f46a", "command": "player.additem 0004f46a" },
-  { "name": "Institute Beacon", "type": "Weapon ID", "id": "00174f8f", "command": "player.additem 00174f8f" },
-  { "name": "Institute EM Pulse Grenade", "type": "Weapon ID", "id": "0018325e", "command": "player.additem 0018325e" },
-  { "name": "Institute Rifle", "type": "Weapon ID", "id": "001633cc", "command": "player.additem 001633cc" },
-  { "name": "Institute Pistol", "type": "Weapon ID", "id": "001633cc", "command": "player.additem 001633cc" },
-  { "name": "Junk Jet", "type": "Weapon ID", "id": "000e942b", "command": "player.additem 000e942b" },
-  { "name": "Justice", "type": "Weapon ID", "id": "001f61e4", "command": "player.additem 001f61e4" },
-  { "name": "Kellogg's Pistol", "type": "Weapon ID", "id": "00225ac1", "command": "player.additem 00225ac1" },
-  { "name": "Knuckles", "type": "Weapon ID", "id": "0005524b", "command": "player.additem 0005524b" },
-  { "name": "Kremvh's Tooth", "type": "Weapon ID", "id": "0022576d", "command": "player.additem 0022576d" },
-  { "name": "Laser Pistol", "type": "Weapon ID", "id": "0009983b", "command": "player.additem 0009983b" },
-  { "name": "Laser Rifle", "type": "Weapon ID", "id": "0009983b", "command": "player.additem 0009983b" },
-  { "name": "Laser Musket", "type": "Weapon ID", "id": "0001dacf", "command": "player.additem 0001dacf" },
-  { "name": "Le Fusil Terribles", "type": "Weapon ID", "id": "00225771", "command": "player.additem 00225771" },
-  { "name": "Lead Pipe", "type": "Weapon ID", "id": "000fc9c3", "command": "player.additem 000fc9c3" },
-  { "name": "Machete", "type": "Weapon ID", "id": "00033fe0", "command": "player.additem 00033fe0" },
-  { "name": "Minigun", "type": "Weapon ID", "id": "0001f669", "command": "player.additem 0001f669" },
-  { "name": "Missile Launcher", "type": "Weapon ID", "id": "0003f6f8", "command": "player.additem 0003f6f8" },
-  { "name": "Molotov Cocktail", "type": "Weapon ID", "id": "0010c3c6", "command": "player.additem 0010c3c6" },
-  { "name": "Nuka Grenade", "type": "Weapon ID", "id": "000e5750", "command": "player.additem 000e5750" },
-  { "name": "Nuke Mine", "type": "Weapon ID", "id": "0010a340", "command": "player.additem 0010a340" },
-  { "name": "Old Faithful", "type": "Weapon ID", "id": "001f61e2", "command": "player.additem 001f61e2" },
-  { "name": "Overseer's Guardian", "type": "Weapon ID", "id": "001f61e7", "command": "player.additem 001f61e7" },
-  { "name": "Partystarter", "type": "Weapon ID", "id": "001f61e5", "command": "player.additem 001f61e5" },
-  { "name": "Pickman's Blade", "type": "Weapon ID", "id": "0022595f", "command": "player.additem 0022595f" },
-  { "name": "Pipe Bolt-action Rifle", "type": "Weapon ID", "id": "0014831a", "command": "player.additem 0014831a" },
-  { "name": "Pipe Rifle", "type": "Weapon ID", "id": "00024f55", "command": "player.additem 00024f55" },
-  { "name": "Pipe Revolver Rifle", "type": "Weapon ID", "id": "0014831b", "command": "player.additem 0014831b" },
-  { "name": "Pipe Wrench", "type": "Weapon ID", "id": "000d83bf", "command": "player.additem 000d83bf" },
-  { "name": "Plasma Grenade", "type": "Weapon ID", "id": "0010a33d", "command": "player.additem 0010a33d" },
-  { "name": "Plasma Pistol", "type": "Weapon ID", "id": "00100ae9", "command": "player.additem 00100ae9" },
-  { "name": "Plasma Mine", "type": "Weapon ID", "id": "0010a342", "command": "player.additem 0010a342" },
-  { "name": "Pool Cue", "type": "Weapon ID", "id": "000fa3e8", "command": "player.additem 000fa3e8" },
-  { "name": "Power Fist", "type": "Weapon ID", "id": "0011b336", "command": "player.additem 0011b336" },
-  { "name": "Limitless Potential", "type": "Weapon ID", "id": "0023e5ee", "command": "player.additem 0023e5ee" },
-  { "name": "Pulse Grenade", "type": "Weapon ID", "id": "000ff21f", "command": "player.additem 000ff21f" },
-  { "name": "Pulse Mine", "type": "Weapon ID", "id": "0010a344", "command": "player.additem 0010a344" },
-  { "name": "Railway Rifle", "type": "Weapon ID", "id": "000fe268", "command": "player.additem 000fe268" },
-  { "name": "Reba", "type": "Weapon ID", "id": "001abc92", "command": "player.additem 001abc92" },
-  { "name": "Reba II", "type": "Weapon ID", "id": "001abc93", "command": "player.additem 001abc93" },
-  { "name": "Reckoning", "type": "Weapon ID", "id": "0022b604", "command": "player.additem 0022b604" },
-  { "name": "Revolutionary Sword", "type": "Weapon ID", "id": "00143ab5", "command": "player.additem 00143ab5" },
-  { "name": "Righteous Authority", "type": "Weapon ID", "id": "00225963", "command": "player.additem 00225963" },
-  { "name": "Ripper", "type": "Weapon ID", "id": "000fa2f6", "command": "player.additem 000fa2f6" },
-  { "name": "Rockville Slugger", "type": "Weapon ID", "id": "001f2674", "command": "player.additem 001f2674" },
-  { "name": "Rolling Pin", "type": "Weapon ID", "id": "00142fab", "command": "player.additem 00142fab" },
-  { "name": "Security Baton", "type": "Weapon ID", "id": "0008c14d", "command": "player.additem 0008c14d" },
-  { "name": "Sentinel's Plasmacaster", "type": "Weapon ID", "id": "00225967", "command": "player.additem 00225967" },
-  { "name": "Shem Drowne's Sword", "type": "Weapon ID", "id": "00238734", "command": "player.additem 00238734" },
-  { "name": "Shishkebab", "type": "Weapon ID", "id": "000fa2fb", "command": "player.additem 000fa2fb" },
-  { "name": "Sledgehammer", "type": "Weapon ID", "id": "000e7ab9", "command": "player.additem 000e7ab9" },
-  { "name": "Spray N' Pray", "type": "Weapon ID", "id": "001f61e3", "command": "player.additem 001f61e3" },
-  { "name": "Submachine Gun", "type": "Weapon ID", "id": "0015b043", "command": "player.additem 0015b043" },
-  { "name": "Super Sledge", "type": "Weapon ID", "id": "000ff964", "command": "player.additem 000ff964" },
-  { "name": "Survivor's Special", "type": "Weapon ID", "id": "00225abc", "command": "player.additem 00225abc" },
-  { "name": "Swatter", "type": "Weapon ID", "id": "00061721", "command": "player.additem 00061721" },
-  { "name": "Switchblade", "type": "Weapon ID", "id": "000fdc81", "command": "player.additem 000fdc81" },
-  { "name": "Synth Relay Grenade", "type": "Weapon ID", "id": "000589f2", "command": "player.additem 000589f2" },
-  { "name": "The Gainer", "type": "Weapon ID", "id": "00225ae7", "command": "player.additem 00225ae7" },
-  { "name": "The Last Minute", "type": "Weapon ID", "id": "0022b603", "command": "player.additem 0022b603" },
-  { "name": "Tinker Tom Special", "type": "Weapon ID", "id": "001f2675", "command": "player.additem 001f2675" },
-  { "name": "Tire Iron", "type": "Weapon ID", "id": "00185d25", "command": "player.additem 00185d25" },
-  { "name": "Vertibird Signal Grenade", "type": "Weapon ID", "id": "00056917", "command": "player.additem 00056917" },
-  { "name": "Virgil's Rifle", "type": "Weapon ID", "id": "00225aba", "command": "player.additem 00225aba" },
-  { "name": "Walking Cane", "type": "Weapon ID", "id": "000fdc7d", "command": "player.additem 000fdc7d" },
-  { "name": "Wastelander's Friend", "type": "Weapon ID", "id": "001f61e6", "command": "player.additem 001f61e6" },
-  { "name": "Wazer Wifle", "type": "Weapon ID", "id": "00225965", "command": "player.additem 00225965" },
-  { "name": "Zao's Sword", "type": "Weapon ID", "id": "001f0860", "command": "player.additem 001f0860" },
-  { "name": "Zeta Gun", "type": "Weapon ID", "id": "002266fc", "command": "player.additem 002266fc" },
-  { "name": "Chinese Officer Sword", "type": "Weapon ID", "id": "00147be4", "command": "player.additem 00147be4" },
-  { "name": "General Chao's Revenge", "type": "Weapon ID", "id": "00248387", "command": "player.additem 00248387" },
-  { "name": "Nail Gun", "type": "Weapon ID", "id": "fe007204", "command": "player.additem fe007204" },
-  { "name": "Saw Blade Launcher", "type": "Weapon ID", "id": "fe00704b", "command": "player.additem fe00704b" },
-  { "name": "Piggy Bank Mine", "type": "Weapon ID", "id": "fe007126", "command": "player.additem fe007126" },
-  { "name": "Baseball Launcher", "type": "Weapon ID", "id": "fe007152", "command": "player.additem fe007152" },
-  { "name": "Tesla Cannon", "type": "Weapon ID", "id": "fe006f99", "command": "player.additem fe006f99" },
-  { "name": "Heavy Incinerator", "type": "Weapon ID", "id": "fe002809", "command": "player.additem fe002809" }
+  {
+    "name": ".44 Pistol",
+    "type": "Weapon ID",
+    "id": "000ce97d",
+    "command": "player.additem 000ce97d"
+  },
+  {
+    "name": "10mm Pistol",
+    "type": "Weapon ID",
+    "id": "00004822",
+    "command": "player.additem 00004822"
+  },
+  {
+    "name": "2076 World Series Baseball Bat",
+    "type": "Weapon ID",
+    "id": "000e9a43",
+    "command": "player.additem 000e9a43"
+  },
+  {
+    "name": "Alien Blaster Pistol",
+    "type": "Weapon ID",
+    "id": "000ff995",
+    "command": "player.additem 000ff995"
+  },
+  {
+    "name": "Artillery Smoke Grenade",
+    "type": "Weapon ID",
+    "id": "0012e2ca",
+    "command": "player.additem 0012e2ca"
+  },
+  {
+    "name": "Ashmaker",
+    "type": "Weapon ID",
+    "id": "001f252e",
+    "command": "player.additem 001f252e"
+  },
+  {
+    "name": "Assault Rifle",
+    "type": "Weapon ID",
+    "id": "0000463f",
+    "command": "player.additem 0000463f"
+  },
+  {
+    "name": "Baseball Bat",
+    "type": "Weapon ID",
+    "id": "0008e736",
+    "command": "player.additem 0008e736"
+  },
+  {
+    "name": "Baseball Grenade",
+    "type": "Weapon ID",
+    "id": "00107bd6",
+    "command": "player.additem 00107bd6"
+  },
+  {
+    "name": "Big Boy",
+    "type": "Weapon ID",
+    "id": "0021a53e",
+    "command": "player.additem 0021a53e"
+  },
+  {
+    "name": "Big Jim",
+    "type": "Weapon ID",
+    "id": "0023e5ec",
+    "command": "player.additem 0023e5ec"
+  },
+  {
+    "name": "Board",
+    "type": "Weapon ID",
+    "id": "0005c250",
+    "command": "player.additem 0005c250"
+  },
+  {
+    "name": "Bottlecap Mine",
+    "type": "Weapon ID",
+    "id": "0010771f",
+    "command": "player.additem 0010771f"
+  },
+  {
+    "name": "Boxing Glove",
+    "type": "Weapon ID",
+    "id": "0016498f",
+    "command": "player.additem 0016498f"
+  },
+  {
+    "name": "Broadsider",
+    "type": "Weapon ID",
+    "id": "000fd11b",
+    "command": "player.additem 000fd11b"
+  },
+  {
+    "name": "Combat Knife",
+    "type": "Weapon ID",
+    "id": "000913ca",
+    "command": "player.additem 000913ca"
+  },
+  {
+    "name": "Combat Shotgun",
+    "type": "Weapon ID",
+    "id": "0014831c",
+    "command": "player.additem 0014831c"
+  },
+  {
+    "name": "Cryo Mine",
+    "type": "Weapon ID",
+    "id": "0010c669",
+    "command": "player.additem 0010c669"
+  },
+  {
+    "name": "Cryogenic Grenade",
+    "type": "Weapon ID",
+    "id": "000ff21d",
+    "command": "player.additem 000ff21d"
+  },
+  {
+    "name": "Cryolator",
+    "type": "Weapon ID",
+    "id": "00171b2b",
+    "command": "player.additem 00171b2b"
+  },
+  {
+    "name": "Death From Above",
+    "type": "Weapon ID",
+    "id": "00225969",
+    "command": "player.additem 00225969"
+  },
+  {
+    "name": "Deathclaw Gauntlet",
+    "type": "Weapon ID",
+    "id": "000d8576",
+    "command": "player.additem 000d8576"
+  },
+  {
+    "name": "Deliverer Pistol",
+    "type": "Weapon ID",
+    "id": "000dc8e7",
+    "command": "player.additem 000dc8e7"
+  },
+  {
+    "name": "Double-barrel Shotgun",
+    "type": "Weapon ID",
+    "id": "00092217",
+    "command": "player.additem 00092217"
+  },
+  {
+    "name": "Eddie's Peace",
+    "type": "Weapon ID",
+    "id": "00225ae9",
+    "command": "player.additem 00225ae9"
+  },
+  {
+    "name": "Experiment 18-A",
+    "type": "Weapon ID",
+    "id": "001f61e9",
+    "command": "player.additem 001f61e9"
+  },
+  {
+    "name": "Fat Man",
+    "type": "Weapon ID",
+    "id": "000bd56f",
+    "command": "player.additem 000bd56f"
+  },
+  {
+    "name": "Final Judgment",
+    "type": "Weapon ID",
+    "id": "00225abe",
+    "command": "player.additem 00225abe"
+  },
+  {
+    "name": "Flamer",
+    "type": "Weapon ID",
+    "id": "000e5881",
+    "command": "player.additem 000e5881"
+  },
+  {
+    "name": "Flare Gun",
+    "type": "Weapon ID",
+    "id": "001025ac",
+    "command": "player.additem 001025ac"
+  },
+  {
+    "name": "Fragmentation Grenade",
+    "type": "Weapon ID",
+    "id": "000eebed",
+    "command": "player.additem 000eebed"
+  },
+  {
+    "name": "Fragmentation Mine",
+    "type": "Weapon ID",
+    "id": "000e56c2",
+    "command": "player.additem 000e56c2"
+  },
+  {
+    "name": "Gamma Gun",
+    "type": "Weapon ID",
+    "id": "000ddb7c",
+    "command": "player.additem 000ddb7c"
+  },
+  {
+    "name": "Gatling Laser",
+    "type": "Weapon ID",
+    "id": "000e27bc",
+    "command": "player.additem 000e27bc"
+  },
+  {
+    "name": "Gauss Rifle",
+    "type": "Weapon ID",
+    "id": "000d1eb0",
+    "command": "player.additem 000d1eb0"
+  },
+  {
+    "name": "Good Intentions",
+    "type": "Weapon ID",
+    "id": "0022537b",
+    "command": "player.additem 0022537b"
+  },
+  {
+    "name": "Grognak's Axe",
+    "type": "Weapon ID",
+    "id": "00183fcd",
+    "command": "player.additem 00183fcd"
+  },
+  {
+    "name": "Hallucigen Gas Grenade",
+    "type": "Weapon ID",
+    "id": "000e98e5",
+    "command": "player.additem 000e98e5"
+  },
+  {
+    "name": "Homing Beacon",
+    "type": "Weapon ID",
+    "id": "00065dec",
+    "command": "player.additem 00065dec"
+  },
+  {
+    "name": "Hunting Rifle",
+    "type": "Weapon ID",
+    "id": "0004f46a",
+    "command": "player.additem 0004f46a"
+  },
+  {
+    "name": "Institute Beacon",
+    "type": "Weapon ID",
+    "id": "00174f8f",
+    "command": "player.additem 00174f8f"
+  },
+  {
+    "name": "Institute EM Pulse Grenade",
+    "type": "Weapon ID",
+    "id": "0018325e",
+    "command": "player.additem 0018325e"
+  },
+  {
+    "name": "Institute Rifle",
+    "type": "Weapon ID",
+    "id": "001633cc",
+    "command": "player.additem 001633cc"
+  },
+  {
+    "name": "Institute Pistol",
+    "type": "Weapon ID",
+    "id": "001633cc",
+    "command": "player.additem 001633cc"
+  },
+  {
+    "name": "Junk Jet",
+    "type": "Weapon ID",
+    "id": "000e942b",
+    "command": "player.additem 000e942b"
+  },
+  {
+    "name": "Justice",
+    "type": "Weapon ID",
+    "id": "001f61e4",
+    "command": "player.additem 001f61e4"
+  },
+  {
+    "name": "Kellogg's Pistol",
+    "type": "Weapon ID",
+    "id": "00225ac1",
+    "command": "player.additem 00225ac1"
+  },
+  {
+    "name": "Knuckles",
+    "type": "Weapon ID",
+    "id": "0005524b",
+    "command": "player.additem 0005524b"
+  },
+  {
+    "name": "Kremvh's Tooth",
+    "type": "Weapon ID",
+    "id": "0022576d",
+    "command": "player.additem 0022576d"
+  },
+  {
+    "name": "Laser Pistol",
+    "type": "Weapon ID",
+    "id": "0009983b",
+    "command": "player.additem 0009983b"
+  },
+  {
+    "name": "Laser Rifle",
+    "type": "Weapon ID",
+    "id": "0009983b",
+    "command": "player.additem 0009983b"
+  },
+  {
+    "name": "Laser Musket",
+    "type": "Weapon ID",
+    "id": "0001dacf",
+    "command": "player.additem 0001dacf"
+  },
+  {
+    "name": "Le Fusil Terribles",
+    "type": "Weapon ID",
+    "id": "00225771",
+    "command": "player.additem 00225771"
+  },
+  {
+    "name": "Lead Pipe",
+    "type": "Weapon ID",
+    "id": "000fc9c3",
+    "command": "player.additem 000fc9c3"
+  },
+  {
+    "name": "Machete",
+    "type": "Weapon ID",
+    "id": "00033fe0",
+    "command": "player.additem 00033fe0"
+  },
+  {
+    "name": "Minigun",
+    "type": "Weapon ID",
+    "id": "0001f669",
+    "command": "player.additem 0001f669"
+  },
+  {
+    "name": "Missile Launcher",
+    "type": "Weapon ID",
+    "id": "0003f6f8",
+    "command": "player.additem 0003f6f8"
+  },
+  {
+    "name": "Molotov Cocktail",
+    "type": "Weapon ID",
+    "id": "0010c3c6",
+    "command": "player.additem 0010c3c6"
+  },
+  {
+    "name": "Nuka Grenade",
+    "type": "Weapon ID",
+    "id": "000e5750",
+    "command": "player.additem 000e5750"
+  },
+  {
+    "name": "Nuke Mine",
+    "type": "Weapon ID",
+    "id": "0010a340",
+    "command": "player.additem 0010a340"
+  },
+  {
+    "name": "Old Faithful",
+    "type": "Weapon ID",
+    "id": "001f61e2",
+    "command": "player.additem 001f61e2"
+  },
+  {
+    "name": "Overseer's Guardian",
+    "type": "Weapon ID",
+    "id": "001f61e7",
+    "command": "player.additem 001f61e7"
+  },
+  {
+    "name": "Partystarter",
+    "type": "Weapon ID",
+    "id": "001f61e5",
+    "command": "player.additem 001f61e5"
+  },
+  {
+    "name": "Pickman's Blade",
+    "type": "Weapon ID",
+    "id": "0022595f",
+    "command": "player.additem 0022595f"
+  },
+  {
+    "name": "Pipe Bolt-action Rifle",
+    "type": "Weapon ID",
+    "id": "0014831a",
+    "command": "player.additem 0014831a"
+  },
+  {
+    "name": "Pipe Rifle",
+    "type": "Weapon ID",
+    "id": "00024f55",
+    "command": "player.additem 00024f55"
+  },
+  {
+    "name": "Pipe Revolver Rifle",
+    "type": "Weapon ID",
+    "id": "0014831b",
+    "command": "player.additem 0014831b"
+  },
+  {
+    "name": "Pipe Wrench",
+    "type": "Weapon ID",
+    "id": "000d83bf",
+    "command": "player.additem 000d83bf"
+  },
+  {
+    "name": "Plasma Grenade",
+    "type": "Weapon ID",
+    "id": "0010a33d",
+    "command": "player.additem 0010a33d"
+  },
+  {
+    "name": "Plasma Pistol",
+    "type": "Weapon ID",
+    "id": "00100ae9",
+    "command": "player.additem 00100ae9"
+  },
+  {
+    "name": "Plasma Mine",
+    "type": "Weapon ID",
+    "id": "0010a342",
+    "command": "player.additem 0010a342"
+  },
+  {
+    "name": "Pool Cue",
+    "type": "Weapon ID",
+    "id": "000fa3e8",
+    "command": "player.additem 000fa3e8"
+  },
+  {
+    "name": "Power Fist",
+    "type": "Weapon ID",
+    "id": "0011b336",
+    "command": "player.additem 0011b336"
+  },
+  {
+    "name": "Limitless Potential",
+    "type": "Weapon ID",
+    "id": "0023e5ee",
+    "command": "player.additem 0023e5ee"
+  },
+  {
+    "name": "Pulse Grenade",
+    "type": "Weapon ID",
+    "id": "000ff21f",
+    "command": "player.additem 000ff21f"
+  },
+  {
+    "name": "Pulse Mine",
+    "type": "Weapon ID",
+    "id": "0010a344",
+    "command": "player.additem 0010a344"
+  },
+  {
+    "name": "Railway Rifle",
+    "type": "Weapon ID",
+    "id": "000fe268",
+    "command": "player.additem 000fe268"
+  },
+  {
+    "name": "Reba",
+    "type": "Weapon ID",
+    "id": "001abc92",
+    "command": "player.additem 001abc92"
+  },
+  {
+    "name": "Reba II",
+    "type": "Weapon ID",
+    "id": "001abc93",
+    "command": "player.additem 001abc93"
+  },
+  {
+    "name": "Reckoning",
+    "type": "Weapon ID",
+    "id": "0022b604",
+    "command": "player.additem 0022b604"
+  },
+  {
+    "name": "Revolutionary Sword",
+    "type": "Weapon ID",
+    "id": "00143ab5",
+    "command": "player.additem 00143ab5"
+  },
+  {
+    "name": "Righteous Authority",
+    "type": "Weapon ID",
+    "id": "00225963",
+    "command": "player.additem 00225963"
+  },
+  {
+    "name": "Ripper",
+    "type": "Weapon ID",
+    "id": "000fa2f6",
+    "command": "player.additem 000fa2f6"
+  },
+  {
+    "name": "Rockville Slugger",
+    "type": "Weapon ID",
+    "id": "001f2674",
+    "command": "player.additem 001f2674"
+  },
+  {
+    "name": "Rolling Pin",
+    "type": "Weapon ID",
+    "id": "00142fab",
+    "command": "player.additem 00142fab"
+  },
+  {
+    "name": "Security Baton",
+    "type": "Weapon ID",
+    "id": "0008c14d",
+    "command": "player.additem 0008c14d"
+  },
+  {
+    "name": "Sentinel's Plasmacaster",
+    "type": "Weapon ID",
+    "id": "00225967",
+    "command": "player.additem 00225967"
+  },
+  {
+    "name": "Shem Drowne's Sword",
+    "type": "Weapon ID",
+    "id": "00238734",
+    "command": "player.additem 00238734"
+  },
+  {
+    "name": "Shishkebab",
+    "type": "Weapon ID",
+    "id": "000fa2fb",
+    "command": "player.additem 000fa2fb"
+  },
+  {
+    "name": "Sledgehammer",
+    "type": "Weapon ID",
+    "id": "000e7ab9",
+    "command": "player.additem 000e7ab9"
+  },
+  {
+    "name": "Spray N' Pray",
+    "type": "Weapon ID",
+    "id": "001f61e3",
+    "command": "player.additem 001f61e3"
+  },
+  {
+    "name": "Submachine Gun",
+    "type": "Weapon ID",
+    "id": "0015b043",
+    "command": "player.additem 0015b043"
+  },
+  {
+    "name": "Super Sledge",
+    "type": "Weapon ID",
+    "id": "000ff964",
+    "command": "player.additem 000ff964"
+  },
+  {
+    "name": "Survivor's Special",
+    "type": "Weapon ID",
+    "id": "00225abc",
+    "command": "player.additem 00225abc"
+  },
+  {
+    "name": "Swatter",
+    "type": "Weapon ID",
+    "id": "00061721",
+    "command": "player.additem 00061721"
+  },
+  {
+    "name": "Switchblade",
+    "type": "Weapon ID",
+    "id": "000fdc81",
+    "command": "player.additem 000fdc81"
+  },
+  {
+    "name": "Synth Relay Grenade",
+    "type": "Weapon ID",
+    "id": "000589f2",
+    "command": "player.additem 000589f2"
+  },
+  {
+    "name": "The Gainer",
+    "type": "Weapon ID",
+    "id": "00225ae7",
+    "command": "player.additem 00225ae7"
+  },
+  {
+    "name": "The Last Minute",
+    "type": "Weapon ID",
+    "id": "0022b603",
+    "command": "player.additem 0022b603"
+  },
+  {
+    "name": "Tinker Tom Special",
+    "type": "Weapon ID",
+    "id": "001f2675",
+    "command": "player.additem 001f2675"
+  },
+  {
+    "name": "Tire Iron",
+    "type": "Weapon ID",
+    "id": "00185d25",
+    "command": "player.additem 00185d25"
+  },
+  {
+    "name": "Vertibird Signal Grenade",
+    "type": "Weapon ID",
+    "id": "00056917",
+    "command": "player.additem 00056917"
+  },
+  {
+    "name": "Virgil's Rifle",
+    "type": "Weapon ID",
+    "id": "00225aba",
+    "command": "player.additem 00225aba"
+  },
+  {
+    "name": "Walking Cane",
+    "type": "Weapon ID",
+    "id": "000fdc7d",
+    "command": "player.additem 000fdc7d"
+  },
+  {
+    "name": "Wastelander's Friend",
+    "type": "Weapon ID",
+    "id": "001f61e6",
+    "command": "player.additem 001f61e6"
+  },
+  {
+    "name": "Wazer Wifle",
+    "type": "Weapon ID",
+    "id": "00225965",
+    "command": "player.additem 00225965"
+  },
+  {
+    "name": "Zao's Sword",
+    "type": "Weapon ID",
+    "id": "001f0860",
+    "command": "player.additem 001f0860"
+  },
+  {
+    "name": "Zeta Gun",
+    "type": "Weapon ID",
+    "id": "002266fc",
+    "command": "player.additem 002266fc"
+  },
+  {
+    "name": "Chinese Officer Sword",
+    "type": "Weapon ID",
+    "id": "00147be4",
+    "command": "player.additem 00147be4"
+  },
+  {
+    "name": "General Chao's Revenge",
+    "type": "Weapon ID",
+    "id": "00248387",
+    "command": "player.additem 00248387"
+  },
+  {
+    "name": "Nail Gun",
+    "type": "Weapon ID",
+    "id": "fe007204",
+    "command": "player.additem fe007204"
+  },
+  {
+    "name": "Saw Blade Launcher",
+    "type": "Weapon ID",
+    "id": "fe00704b",
+    "command": "player.additem fe00704b"
+  },
+  {
+    "name": "Piggy Bank Mine",
+    "type": "Weapon ID",
+    "id": "fe007126",
+    "command": "player.additem fe007126"
+  },
+  {
+    "name": "Baseball Launcher",
+    "type": "Weapon ID",
+    "id": "fe007152",
+    "command": "player.additem fe007152"
+  },
+  {
+    "name": "Tesla Cannon",
+    "type": "Weapon ID",
+    "id": "fe006f99",
+    "command": "player.additem fe006f99"
+  },
+  {
+    "name": "Heavy Incinerator",
+    "type": "Weapon ID",
+    "id": "fe002809",
+    "command": "player.additem fe002809"
+  },
+  {
+    "name": "10mm Pistol Standard Receiver",
+    "type": "Weapon Mod",
+    "id": "001a8a43",
+    "command": "player.additem 001a8a43"
+  },
+  {
+    "name": "Assault Rifle Standard Receiver",
+    "type": "Weapon Mod",
+    "id": "001a8a4c",
+    "command": "player.additem 001a8a4c"
+  },
+  {
+    "name": "Combat Rifle Standard Receiver",
+    "type": "Weapon Mod",
+    "id": "001a8a53",
+    "command": "player.additem 001a8a53"
+  },
+  {
+    "name": "Hunting Rifle Standard Receiver",
+    "type": "Weapon Mod",
+    "id": "0015e93b",
+    "command": "player.additem 0015e93b"
+  },
+  {
+    "name": "Pipe Pistol Standard Receiver",
+    "type": "Weapon Mod",
+    "id": "001a8a96",
+    "command": "player.additem 001a8a96"
+  },
+  {
+    "name": "Revolver Standard Receiver",
+    "type": "Weapon Mod",
+    "id": "001a8a9a",
+    "command": "player.additem 001a8a9a"
+  },
+  {
+    "name": "Bolt-action Standard Receiver",
+    "type": "Weapon Mod",
+    "id": "001a8a90",
+    "command": "player.additem 001a8a90"
+  },
+  {
+    "name": "10mm Pistol Light Frame Receiver",
+    "type": "Weapon Mod",
+    "id": "0015bd70",
+    "command": "player.additem 0015bd70"
+  },
+  {
+    "name": "Assault Rifle Light Frame Receiver",
+    "type": "Weapon Mod",
+    "id": "0018895b",
+    "command": "player.additem 0018895b"
+  },
+  {
+    "name": "Combat Rifle Light Frame Receiver",
+    "type": "Weapon Mod",
+    "id": "00185beb",
+    "command": "player.additem 00185beb"
+  },
+  {
+    "name": "Hunting Rifle Light Frame Receiver",
+    "type": "Weapon Mod",
+    "id": "00155036",
+    "command": "player.additem 00155036"
+  },
+  {
+    "name": "Pipe Pistol Light Frame Receiver",
+    "type": "Weapon Mod",
+    "id": "0015c856",
+    "command": "player.additem 0015c856"
+  },
+  {
+    "name": "Revolver Light Frame Receiver",
+    "type": "Weapon Mod",
+    "id": "0015c89a",
+    "command": "player.additem 0015c89a"
+  },
+  {
+    "name": "Bolt-action Light Frame Receiver",
+    "type": "Weapon Mod",
+    "id": "0015c87b",
+    "command": "player.additem 0015c87b"
+  },
+  {
+    "name": "10mm Pistol Heavy Frame Receiver",
+    "type": "Weapon Mod",
+    "id": "0015bd6f",
+    "command": "player.additem 0015bd6f"
+  },
+  {
+    "name": "Assault Rifle Heavy Frame Receiver",
+    "type": "Weapon Mod",
+    "id": "0018895a",
+    "command": "player.additem 0018895a"
+  },
+  {
+    "name": "Combat Rifle Heavy Frame Receiver",
+    "type": "Weapon Mod",
+    "id": "00185bea",
+    "command": "player.additem 00185bea"
+  },
+  {
+    "name": "Hunting Rifle Heavy Frame Receiver",
+    "type": "Weapon Mod",
+    "id": "00155035",
+    "command": "player.additem 00155035"
+  },
+  {
+    "name": "Pipe Pistol Heavy Frame Receiver",
+    "type": "Weapon Mod",
+    "id": "0015c855",
+    "command": "player.additem 0015c855"
+  },
+  {
+    "name": "Revolver Heavy Frame Receiver",
+    "type": "Weapon Mod",
+    "id": "0015c899",
+    "command": "player.additem 0015c899"
+  },
+  {
+    "name": "Bolt-action Heavy Frame Receiver",
+    "type": "Weapon Mod",
+    "id": "0015c87a",
+    "command": "player.additem 0015c87a"
+  },
+  {
+    "name": "10mm Pistol Calibrated Receiver",
+    "type": "Weapon Mod",
+    "id": "0015bd6d",
+    "command": "player.additem 0015bd6d"
+  },
+  {
+    "name": "Assault Rifle Calibrated Receiver",
+    "type": "Weapon Mod",
+    "id": "00188958",
+    "command": "player.additem 00188958"
+  },
+  {
+    "name": "Combat Rifle Calibrated Receiver",
+    "type": "Weapon Mod",
+    "id": "00185be8",
+    "command": "player.additem 00185be8"
+  },
+  {
+    "name": "Hunting Rifle Calibrated Receiver",
+    "type": "Weapon Mod",
+    "id": "00155033",
+    "command": "player.additem 00155033"
+  },
+  {
+    "name": "Pipe Pistol Calibrated Receiver",
+    "type": "Weapon Mod",
+    "id": "0015c853",
+    "command": "player.additem 0015c853"
+  },
+  {
+    "name": "Revolver Calibrated Receiver",
+    "type": "Weapon Mod",
+    "id": "0015c897",
+    "command": "player.additem 0015c897"
+  },
+  {
+    "name": "Bolt-action Calibrated Receiver",
+    "type": "Weapon Mod",
+    "id": "0015c878",
+    "command": "player.additem 0015c878"
+  },
+  {
+    "name": "10mm Pistol Hardened Receiver",
+    "type": "Weapon Mod",
+    "id": "0015e92a",
+    "command": "player.additem 0015e92a"
+  },
+  {
+    "name": "Assault Rifle Hardened Receiver",
+    "type": "Weapon Mod",
+    "id": "0018895c",
+    "command": "player.additem 0018895c"
+  },
+  {
+    "name": "Combat Rifle Hardened Receiver",
+    "type": "Weapon Mod",
+    "id": "00185bec",
+    "command": "player.additem 00185bec"
+  },
+  {
+    "name": "Hunting Rifle Hardened Receiver",
+    "type": "Weapon Mod",
+    "id": "00155037",
+    "command": "player.additem 00155037"
+  },
+  {
+    "name": "Pipe Pistol Hardened Receiver",
+    "type": "Weapon Mod",
+    "id": "0015c857",
+    "command": "player.additem 0015c857"
+  },
+  {
+    "name": "Revolver Hardened Receiver",
+    "type": "Weapon Mod",
+    "id": "0015c89b",
+    "command": "player.additem 0015c89b"
+  },
+  {
+    "name": "Bolt-action Hardened Receiver",
+    "type": "Weapon Mod",
+    "id": "0015c87c",
+    "command": "player.additem 0015c87c"
+  },
+  {
+    "name": "10mm Pistol Automatic Receiver",
+    "type": "Weapon Mod",
+    "id": "0015e928",
+    "command": "player.additem 0015e928"
+  },
+  {
+    "name": "Assault Rifle Automatic Receiver",
+    "type": "Weapon Mod",
+    "id": "00188952",
+    "command": "player.additem 00188952"
+  },
+  {
+    "name": "Combat Rifle Automatic Receiver",
+    "type": "Weapon Mod",
+    "id": "00185be2",
+    "command": "player.additem 00185be2"
+  },
+  {
+    "name": "Pipe Pistol Automatic Receiver",
+    "type": "Weapon Mod",
+    "id": "0015c84b",
+    "command": "player.additem 0015c84b"
+  },
+  {
+    "name": "10mm Pistol Armor Piercing Automatic Receiver",
+    "type": "Weapon Mod",
+    "id": "0015bd6a",
+    "command": "player.additem 0015bd6a"
+  },
+  {
+    "name": "Assault Rifle Armor Piercing Automatic Receiver",
+    "type": "Weapon Mod",
+    "id": "00188953",
+    "command": "player.additem 00188953"
+  },
+  {
+    "name": "Combat Rifle Armor Piercing Automatic Receiver",
+    "type": "Weapon Mod",
+    "id": "00185be3",
+    "command": "player.additem 00185be3"
+  },
+  {
+    "name": "Pipe Pistol Armor Piercing Automatic Receiver",
+    "type": "Weapon Mod",
+    "id": "0015c84c",
+    "command": "player.additem 0015c84c"
+  },
+  {
+    "name": "10mm Pistol Hair Trigger Receiver",
+    "type": "Weapon Mod",
+    "id": "0015bd6e",
+    "command": "player.additem 0015bd6e"
+  },
+  {
+    "name": "Assault Rifle Hair Trigger Receiver",
+    "type": "Weapon Mod",
+    "id": "00188959",
+    "command": "player.additem 00188959"
+  },
+  {
+    "name": "Combat Rifle Hair Trigger Receiver",
+    "type": "Weapon Mod",
+    "id": "00185be9",
+    "command": "player.additem 00185be9"
+  },
+  {
+    "name": "Pipe Pistol Hair Trigger Receiver",
+    "type": "Weapon Mod",
+    "id": "0015c854",
+    "command": "player.additem 0015c854"
+  },
+  {
+    "name": "10mm Pistol Powerful Receiver",
+    "type": "Weapon Mod",
+    "id": "0015e92b",
+    "command": "player.additem 0015e92b"
+  },
+  {
+    "name": "Assault Rifle Powerful Receiver",
+    "type": "Weapon Mod",
+    "id": "0018895d",
+    "command": "player.additem 0018895d"
+  },
+  {
+    "name": "Combat Rifle Powerful Receiver",
+    "type": "Weapon Mod",
+    "id": "00185bed",
+    "command": "player.additem 00185bed"
+  },
+  {
+    "name": "Hunting Rifle Powerful Receiver",
+    "type": "Weapon Mod",
+    "id": "00155038",
+    "command": "player.additem 00155038"
+  },
+  {
+    "name": "Pipe Pistol Powerful Receiver",
+    "type": "Weapon Mod",
+    "id": "0015c858",
+    "command": "player.additem 0015c858"
+  },
+  {
+    "name": "Revolver Powerful Receiver",
+    "type": "Weapon Mod",
+    "id": "0015c89c",
+    "command": "player.additem 0015c89c"
+  },
+  {
+    "name": "Bolt-action Powerful Receiver",
+    "type": "Weapon Mod",
+    "id": "0015c87d",
+    "command": "player.additem 0015c87d"
+  },
+  {
+    "name": "10mm Pistol Hardened Automatic Receiver",
+    "type": "Weapon Mod",
+    "id": "0015fa2c",
+    "command": "player.additem 0015fa2c"
+  },
+  {
+    "name": "Assault Rifle Hardened Automatic Receiver",
+    "type": "Weapon Mod",
+    "id": "00188954",
+    "command": "player.additem 00188954"
+  },
+  {
+    "name": "Combat Rifle Hardened Automatic Receiver",
+    "type": "Weapon Mod",
+    "id": "00185be4",
+    "command": "player.additem 00185be4"
+  },
+  {
+    "name": "Pipe Pistol Hardened Automatic Receiver",
+    "type": "Weapon Mod",
+    "id": "0015fa2d",
+    "command": "player.additem 0015fa2d"
+  },
+  {
+    "name": "10mm Pistol Rapid Automatic Receiver",
+    "type": "Weapon Mod",
+    "id": "0015bd69",
+    "command": "player.additem 0015bd69"
+  },
+  {
+    "name": "Assault Rifle Rapid Automatic Receiver",
+    "type": "Weapon Mod",
+    "id": "00188955",
+    "command": "player.additem 00188955"
+  },
+  {
+    "name": "Combat Rifle Rapid Automatic Receiver",
+    "type": "Weapon Mod",
+    "id": "00185be5",
+    "command": "player.additem 00185be5"
+  },
+  {
+    "name": "Pipe Pistol Rapid Automatic Receiver",
+    "type": "Weapon Mod",
+    "id": "0015c84f",
+    "command": "player.additem 0015c84f"
+  },
+  {
+    "name": "10mm Pistol Calibrated Powerful Receiver",
+    "type": "Weapon Mod",
+    "id": "00161d09",
+    "command": "player.additem 00161d09"
+  },
+  {
+    "name": "Assault Rifle Calibrated Powerful Receiver",
+    "type": "Weapon Mod",
+    "id": "0018895e",
+    "command": "player.additem 0018895e"
+  },
+  {
+    "name": "Combat Rifle Calibrated Powerful Receiver",
+    "type": "Weapon Mod",
+    "id": "00185bee",
+    "command": "player.additem 00185bee"
+  },
+  {
+    "name": "Hunting Rifle Calibrated Powerful Receiver",
+    "type": "Weapon Mod",
+    "id": "00161d0c",
+    "command": "player.additem 00161d0c"
+  },
+  {
+    "name": "Pipe Pistol Calibrated Powerful Receiver",
+    "type": "Weapon Mod",
+    "id": "00161d0d",
+    "command": "player.additem 00161d0d"
+  },
+  {
+    "name": "Revolver Calibrated Powerful Receiver",
+    "type": "Weapon Mod",
+    "id": "001916b9",
+    "command": "player.additem 001916b9"
+  },
+  {
+    "name": "Bolt-action Calibrated Powerful Receiver",
+    "type": "Weapon Mod",
+    "id": "001916ac",
+    "command": "player.additem 001916ac"
+  },
+  {
+    "name": "10mm Pistol Hardened Piercing Auto Receiver",
+    "type": "Weapon Mod",
+    "id": "00161d19",
+    "command": "player.additem 00161d19"
+  },
+  {
+    "name": "Assault Rifle Hardened Piercing Auto Receiver",
+    "type": "Weapon Mod",
+    "id": "00188956",
+    "command": "player.additem 00188956"
+  },
+  {
+    "name": "Combat Rifle Hardened Piercing Auto Receiver",
+    "type": "Weapon Mod",
+    "id": "00185be6",
+    "command": "player.additem 00185be6"
+  },
+  {
+    "name": "Pipe Pistol Hardened Piercing Auto Receiver",
+    "type": "Weapon Mod",
+    "id": "00161d1c",
+    "command": "player.additem 00161d1c"
+  },
+  {
+    "name": "10mm Pistol Advanced Receiver",
+    "type": "Weapon Mod",
+    "id": "0015bd67",
+    "command": "player.additem 0015bd67"
+  },
+  {
+    "name": "Assault Rifle Advanced Receiver",
+    "type": "Weapon Mod",
+    "id": "00188951",
+    "command": "player.additem 00188951"
+  },
+  {
+    "name": "10mm Pistol Powerful Automatic Receiver",
+    "type": "Weapon Mod",
+    "id": "0015fa31",
+    "command": "player.additem 0015fa31"
+  },
+  {
+    "name": "Assault Rifle Powerful Automatic Receiver",
+    "type": "Weapon Mod",
+    "id": "00188957",
+    "command": "player.additem 00188957"
+  },
+  {
+    "name": "Combat Rifle Powerful Automatic Receiver",
+    "type": "Weapon Mod",
+    "id": "00185be7",
+    "command": "player.additem 00185be7"
+  },
+  {
+    "name": "Pipe Pistol Powerful Automatic Receiver",
+    "type": "Weapon Mod",
+    "id": "0015c852",
+    "command": "player.additem 0015c852"
+  },
+  {
+    "name": "Hunting Rifle Tuned Receiver",
+    "type": "Weapon Mod",
+    "id": "00155034",
+    "command": "player.additem 00155034"
+  },
+  {
+    "name": "Revolver Tuned Receiver",
+    "type": "Weapon Mod",
+    "id": "0015c898",
+    "command": "player.additem 0015c898"
+  },
+  {
+    "name": "Bolt-action Tuned Receiver",
+    "type": "Weapon Mod",
+    "id": "0015c879",
+    "command": "player.additem 0015c879"
+  },
+  {
+    "name": "Pipe Pistol .45 Receiver",
+    "type": "Weapon Mod",
+    "id": "0015c849",
+    "command": "player.additem 0015c849"
+  },
+  {
+    "name": "Combat Rifle .38 Receiver",
+    "type": "Weapon Mod",
+    "id": "00210488",
+    "command": "player.additem 00210488"
+  },
+  {
+    "name": "Hunting Rifle .38 Receiver",
+    "type": "Weapon Mod",
+    "id": "0021048a",
+    "command": "player.additem 0021048a"
+  },
+  {
+    "name": "Revolver .38 Receiver",
+    "type": "Weapon Mod",
+    "id": "0021048e",
+    "command": "player.additem 0021048e"
+  },
+  {
+    "name": "Bolt-action .38 Receiver",
+    "type": "Weapon Mod",
+    "id": "0021048c",
+    "command": "player.additem 0021048c"
+  },
+  {
+    "name": "Combat Rifle .308 Receiver",
+    "type": "Weapon Mod",
+    "id": "00185be1",
+    "command": "player.additem 00185be1"
+  },
+  {
+    "name": "Revolver .308 Receiver",
+    "type": "Weapon Mod",
+    "id": "0015c895",
+    "command": "player.additem 0015c895"
+  },
+  {
+    "name": "Hunting Rifle .50 Receiver",
+    "type": "Weapon Mod",
+    "id": "00155031",
+    "command": "player.additem 00155031"
+  },
+  {
+    "name": "Bolt-action .50 Receiver",
+    "type": "Weapon Mod",
+    "id": "0015c876",
+    "command": "player.additem 0015c876"
+  },
+  {
+    "name": "Pipe Pistol Stub Barrel",
+    "type": "Weapon Mod",
+    "id": "001a8a92",
+    "command": "player.additem 001a8a92"
+  },
+  {
+    "name": "Revolver Stub Barrel",
+    "type": "Weapon Mod",
+    "id": "001a8a98",
+    "command": "player.additem 001a8a98"
+  },
+  {
+    "name": "Bolt-action Stub Barrel",
+    "type": "Weapon Mod",
+    "id": "001a8a8c",
+    "command": "player.additem 001a8a8c"
+  },
+  {
+    "name": "10mm Pistol Short Barrel",
+    "type": "Weapon Mod",
+    "id": "001a8a40",
+    "command": "player.additem 001a8a40"
+  },
+  {
+    "name": "Assault Rifle Short Barrel",
+    "type": "Weapon Mod",
+    "id": "0018894a",
+    "command": "player.additem 0018894a"
+  },
+  {
+    "name": "Combat Rifle Short Barrel",
+    "type": "Weapon Mod",
+    "id": "00185bfc",
+    "command": "player.additem 00185bfc"
+  },
+  {
+    "name": "Hunting Rifle Short Barrel",
+    "type": "Weapon Mod",
+    "id": "001362b0",
+    "command": "player.additem 001362b0"
+  },
+  {
+    "name": "Pipe Pistol Short Barrel",
+    "type": "Weapon Mod",
+    "id": "0015c836",
+    "command": "player.additem 0015c836"
+  },
+  {
+    "name": "Revolver Short Barrel",
+    "type": "Weapon Mod",
+    "id": "0015c888",
+    "command": "player.additem 0015c888"
+  },
+  {
+    "name": "Bolt-action Short Barrel",
+    "type": "Weapon Mod",
+    "id": "0015c863",
+    "command": "player.additem 0015c863"
+  },
+  {
+    "name": "10mm Pistol Short Light Barrel",
+    "type": "Weapon Mod",
+    "id": "000a7684",
+    "command": "player.additem 000a7684"
+  },
+  {
+    "name": "Combat Rifle Short Light Barrel",
+    "type": "Weapon Mod",
+    "id": "00185bfd",
+    "command": "player.additem 00185bfd"
+  },
+  {
+    "name": "Hunting Rifle Short Light Barrel",
+    "type": "Weapon Mod",
+    "id": "0015502f",
+    "command": "player.additem 0015502f"
+  },
+  {
+    "name": "Pipe Pistol Short Light Barrel",
+    "type": "Weapon Mod",
+    "id": "0015c837",
+    "command": "player.additem 0015c837"
+  },
+  {
+    "name": "Revolver Short Light Barrel",
+    "type": "Weapon Mod",
+    "id": "0015c889",
+    "command": "player.additem 0015c889"
+  },
+  {
+    "name": "Bolt-action Short Light Barrel",
+    "type": "Weapon Mod",
+    "id": "0015c864",
+    "command": "player.additem 0015c864"
+  },
+  {
+    "name": "10mm Pistol Long Barrel",
+    "type": "Weapon Mod",
+    "id": "0015bd57",
+    "command": "player.additem 0015bd57"
+  },
+  {
+    "name": "Assault Rifle Long Barrel",
+    "type": "Weapon Mod",
+    "id": "00188948",
+    "command": "player.additem 00188948"
+  },
+  {
+    "name": "Combat Rifle Long Barrel",
+    "type": "Weapon Mod",
+    "id": "00185bf9",
+    "command": "player.additem 00185bf9"
+  },
+  {
+    "name": "Hunting Rifle Long Barrel",
+    "type": "Weapon Mod",
+    "id": "0015e92e",
+    "command": "player.additem 0015e92e"
+  },
+  {
+    "name": "Pipe Pistol Long Barrel",
+    "type": "Weapon Mod",
+    "id": "0015c833",
+    "command": "player.additem 0015c833"
+  },
+  {
+    "name": "Revolver Long Barrel",
+    "type": "Weapon Mod",
+    "id": "0015c885",
+    "command": "player.additem 0015c885"
+  },
+  {
+    "name": "Bolt-action Long Barrel",
+    "type": "Weapon Mod",
+    "id": "0015c860",
+    "command": "player.additem 0015c860"
+  },
+  {
+    "name": "10mm Pistol Long Light Barrel",
+    "type": "Weapon Mod",
+    "id": "0015bd58",
+    "command": "player.additem 0015bd58"
+  },
+  {
+    "name": "Combat Rifle Long Light Barrel",
+    "type": "Weapon Mod",
+    "id": "00185bfa",
+    "command": "player.additem 00185bfa"
+  },
+  {
+    "name": "Hunting Rifle Long Light Barrel",
+    "type": "Weapon Mod",
+    "id": "0015e92f",
+    "command": "player.additem 0015e92f"
+  },
+  {
+    "name": "Pipe Pistol Long Light Barrel",
+    "type": "Weapon Mod",
+    "id": "0015c834",
+    "command": "player.additem 0015c834"
+  },
+  {
+    "name": "Revolver Long Light Barrel",
+    "type": "Weapon Mod",
+    "id": "0015c886",
+    "command": "player.additem 0015c886"
+  },
+  {
+    "name": "Bolt-action Long Light Barrel",
+    "type": "Weapon Mod",
+    "id": "0015c861",
+    "command": "player.additem 0015c861"
+  },
+  {
+    "name": "Assault Rifle Short Ported Barrel",
+    "type": "Weapon Mod",
+    "id": "0018894b",
+    "command": "player.additem 0018894b"
+  },
+  {
+    "name": "Combat Rifle Short Ported Barrel",
+    "type": "Weapon Mod",
+    "id": "00185bfe",
+    "command": "player.additem 00185bfe"
+  },
+  {
+    "name": "Pipe Pistol Short Ported Barrel",
+    "type": "Weapon Mod",
+    "id": "001651c4",
+    "command": "player.additem 001651c4"
+  },
+  {
+    "name": "Revolver Short Ported Barrel",
+    "type": "Weapon Mod",
+    "id": "001651c6",
+    "command": "player.additem 001651c6"
+  },
+  {
+    "name": "Bolt-action Short Ported Barrel",
+    "type": "Weapon Mod",
+    "id": "001651c2",
+    "command": "player.additem 001651c2"
+  },
+  {
+    "name": "10mm Pistol Long Ported Barrel",
+    "type": "Weapon Mod",
+    "id": "0015bd5a",
+    "command": "player.additem 0015bd5a"
+  },
+  {
+    "name": "Assault Rifle Long Ported Barrel",
+    "type": "Weapon Mod",
+    "id": "00188949",
+    "command": "player.additem 00188949"
+  },
+  {
+    "name": "Combat Rifle Long Ported Barrel",
+    "type": "Weapon Mod",
+    "id": "00185bfb",
+    "command": "player.additem 00185bfb"
+  },
+  {
+    "name": "Hunting Rifle Long Ported Barrel",
+    "type": "Weapon Mod",
+    "id": "0015e930",
+    "command": "player.additem 0015e930"
+  },
+  {
+    "name": "Pipe Pistol Long Ported Barrel",
+    "type": "Weapon Mod",
+    "id": "001651c3",
+    "command": "player.additem 001651c3"
+  },
+  {
+    "name": "Revolver Long Ported Barrel",
+    "type": "Weapon Mod",
+    "id": "001651c5",
+    "command": "player.additem 001651c5"
+  },
+  {
+    "name": "Bolt-action Long Ported Barrel",
+    "type": "Weapon Mod",
+    "id": "001651c1",
+    "command": "player.additem 001651c1"
+  },
+  {
+    "name": "10mm Pistol Long Light Ported Barrel",
+    "type": "Weapon Mod",
+    "id": "0015bd59",
+    "command": "player.additem 0015bd59"
+  },
+  {
+    "name": "Pipe Pistol Long Finned Barrel",
+    "type": "Weapon Mod",
+    "id": "00027f2e",
+    "command": "player.additem 00027f2e"
+  },
+  {
+    "name": "Revolver Long Finned Barrel",
+    "type": "Weapon Mod",
+    "id": "00027f2f",
+    "command": "player.additem 00027f2f"
+  },
+  {
+    "name": "Bolt-action Long Finned Barrel",
+    "type": "Weapon Mod",
+    "id": "00027f2d",
+    "command": "player.additem 00027f2d"
+  },
+  {
+    "name": "10mm Pistol Standard Grip",
+    "type": "Weapon Mod",
+    "id": "001a8a41",
+    "command": "player.additem 001a8a41"
+  },
+  {
+    "name": "Pipe Pistol Standard Grip",
+    "type": "Weapon Mod",
+    "id": "001a8a93",
+    "command": "player.additem 001a8a93"
+  },
+  {
+    "name": "Revolver Standard Grip",
+    "type": "Weapon Mod",
+    "id": "001a8a99",
+    "command": "player.additem 001a8a99"
+  },
+  {
+    "name": "Bolt-action Standard Grip",
+    "type": "Weapon Mod",
+    "id": "001a8a8d",
+    "command": "player.additem 001a8a8d"
+  },
+  {
+    "name": "10mm Pistol Comfort Grip",
+    "type": "Weapon Mod",
+    "id": "0015e926",
+    "command": "player.additem 0015e926"
+  },
+  {
+    "name": "Pipe Pistol Comfort Grip",
+    "type": "Weapon Mod",
+    "id": "0015c838",
+    "command": "player.additem 0015c838"
+  },
+  {
+    "name": "Revolver Comfort Grip",
+    "type": "Weapon Mod",
+    "id": "0015c88a",
+    "command": "player.additem 0015c88a"
+  },
+  {
+    "name": "Bolt-action Comfort Grip",
+    "type": "Weapon Mod",
+    "id": "0015c865",
+    "command": "player.additem 0015c865"
+  },
+  {
+    "name": "Pipe Pistol Standard Stock",
+    "type": "Weapon Mod",
+    "id": "0015c83b",
+    "command": "player.additem 0015c83b"
+  },
+  {
+    "name": "Revolver Standard Stock",
+    "type": "Weapon Mod",
+    "id": "0015c88d",
+    "command": "player.additem 0015c88d"
+  },
+  {
+    "name": "Bolt-action Standard Stock",
+    "type": "Weapon Mod",
+    "id": "0015c868",
+    "command": "player.additem 0015c868"
+  },
+  {
+    "name": "10mm Pistol Sharpshooter's Grip",
+    "type": "Weapon Mod",
+    "id": "0015e927",
+    "command": "player.additem 0015e927"
+  },
+  {
+    "name": "Pipe Pistol Sharpshooter's Grip",
+    "type": "Weapon Mod",
+    "id": "0015c839",
+    "command": "player.additem 0015c839"
+  },
+  {
+    "name": "Revolver Sharpshooter's Grip",
+    "type": "Weapon Mod",
+    "id": "0015c88b",
+    "command": "player.additem 0015c88b"
+  },
+  {
+    "name": "Bolt-action Sharpshooter's Grip",
+    "type": "Weapon Mod",
+    "id": "0015c866",
+    "command": "player.additem 0015c866"
+  },
+  {
+    "name": "Assault Rifle Short Stock",
+    "type": "Weapon Mod",
+    "id": "0018894e",
+    "command": "player.additem 0018894e"
+  },
+  {
+    "name": "Combat Rifle Short Stock",
+    "type": "Weapon Mod",
+    "id": "00185c02",
+    "command": "player.additem 00185c02"
+  },
+  {
+    "name": "Hunting Rifle Short Stock",
+    "type": "Weapon Mod",
+    "id": "0015e933",
+    "command": "player.additem 0015e933"
+  },
+  {
+    "name": "Assault Rifle Full Stock",
+    "type": "Weapon Mod",
+    "id": "0018894c",
+    "command": "player.additem 0018894c"
+  },
+  {
+    "name": "Combat Rifle Full Stock",
+    "type": "Weapon Mod",
+    "id": "00185bff",
+    "command": "player.additem 00185bff"
+  },
+  {
+    "name": "Hunting Rifle Full Stock",
+    "type": "Weapon Mod",
+    "id": "001362b1",
+    "command": "player.additem 001362b1"
+  },
+  {
+    "name": "Combat Rifle Marksman's Stock",
+    "type": "Weapon Mod",
+    "id": "00185c00",
+    "command": "player.additem 00185c00"
+  },
+  {
+    "name": "Hunting Rifle Marksman's Stock",
+    "type": "Weapon Mod",
+    "id": "0015e931",
+    "command": "player.additem 0015e931"
+  },
+  {
+    "name": "Pipe Pistol Marksman's Stock",
+    "type": "Weapon Mod",
+    "id": "0015c83c",
+    "command": "player.additem 0015c83c"
+  },
+  {
+    "name": "Revolver Marksman's Stock",
+    "type": "Weapon Mod",
+    "id": "0015c88e",
+    "command": "player.additem 0015c88e"
+  },
+  {
+    "name": "Bolt-action Marksman's Stock",
+    "type": "Weapon Mod",
+    "id": "0015c869",
+    "command": "player.additem 0015c869"
+  },
+  {
+    "name": "Assault Rifle Recoil Compensating Stock",
+    "type": "Weapon Mod",
+    "id": "0018894d",
+    "command": "player.additem 0018894d"
+  },
+  {
+    "name": "Combat Rifle Recoil Compensating Stock",
+    "type": "Weapon Mod",
+    "id": "00185c01",
+    "command": "player.additem 00185c01"
+  },
+  {
+    "name": "Pipe Pistol Recoil Compensating Stock",
+    "type": "Weapon Mod",
+    "id": "0015c83d",
+    "command": "player.additem 0015c83d"
+  },
+  {
+    "name": "Revolver Recoil Compensating Stock",
+    "type": "Weapon Mod",
+    "id": "0015c88f",
+    "command": "player.additem 0015c88f"
+  },
+  {
+    "name": "Bolt-action Recoil Compensating Stock",
+    "type": "Weapon Mod",
+    "id": "0015c86a",
+    "command": "player.additem 0015c86a"
+  },
+  {
+    "name": "10mm Pistol Standard Magazine",
+    "type": "Weapon Mod",
+    "id": "001a8a42",
+    "command": "player.additem 001a8a42"
+  },
+  {
+    "name": "Assault Rifle Standard Magazine",
+    "type": "Weapon Mod",
+    "id": "0018897a",
+    "command": "player.additem 0018897a"
+  },
+  {
+    "name": "Combat Rifle Standard Magazine",
+    "type": "Weapon Mod",
+    "id": "00185c05",
+    "command": "player.additem 00185c05"
+  },
+  {
+    "name": "Hunting Rifle Standard Magazine",
+    "type": "Weapon Mod",
+    "id": "001a8a6b",
+    "command": "player.additem 001a8a6b"
+  },
+  {
+    "name": "Pipe Pistol Standard Magazine",
+    "type": "Weapon Mod",
+    "id": "001a8a94",
+    "command": "player.additem 001a8a94"
+  },
+  {
+    "name": "Hunting Rifle Medium Magazine",
+    "type": "Weapon Mod",
+    "id": "001362b5",
+    "command": "player.additem 001362b5"
+  },
+  {
+    "name": "10mm Pistol Large Magazine",
+    "type": "Weapon Mod",
+    "id": "0015bd60",
+    "command": "player.additem 0015bd60"
+  },
+  {
+    "name": "Combat Rifle Large Magazine",
+    "type": "Weapon Mod",
+    "id": "00185c03",
+    "command": "player.additem 00185c03"
+  },
+  {
+    "name": "Hunting Rifle Large Magazine",
+    "type": "Weapon Mod",
+    "id": "001362b4",
+    "command": "player.additem 001362b4"
+  },
+  {
+    "name": "Pipe Pistol Large Magazine",
+    "type": "Weapon Mod",
+    "id": "0015c840",
+    "command": "player.additem 0015c840"
+  },
+  {
+    "name": "10mm Pistol Quick Eject Mag",
+    "type": "Weapon Mod",
+    "id": "0015bd63",
+    "command": "player.additem 0015bd63"
+  },
+  {
+    "name": "Assault Rifle Quick Eject Mag",
+    "type": "Weapon Mod",
+    "id": "0018897b",
+    "command": "player.additem 0018897b"
+  },
+  {
+    "name": "Hunting Rifle Quick Eject Mag",
+    "type": "Weapon Mod",
+    "id": "001a8a6c",
+    "command": "player.additem 001a8a6c"
+  },
+  {
+    "name": "Pipe Pistol Quick Eject Mag",
+    "type": "Weapon Mod",
+    "id": "001a8a95",
+    "command": "player.additem 001a8a95"
+  },
+  {
+    "name": "Combat Rifle Medium Quick Eject Mag",
+    "type": "Weapon Mod",
+    "id": "00185c06",
+    "command": "player.additem 00185c06"
+  },
+  {
+    "name": "Hunting Rifle Medium Quick Eject Mag",
+    "type": "Weapon Mod",
+    "id": "0015e935",
+    "command": "player.additem 0015e935"
+  },
+  {
+    "name": "10mm Pistol Large Quick Eject Magazine",
+    "type": "Weapon Mod",
+    "id": "0015bd61",
+    "command": "player.additem 0015bd61"
+  },
+  {
+    "name": "Combat Rifle Large Quick Eject Magazine",
+    "type": "Weapon Mod",
+    "id": "00185c04",
+    "command": "player.additem 00185c04"
+  },
+  {
+    "name": "Hunting Rifle Large Quick Eject Magazine",
+    "type": "Weapon Mod",
+    "id": "0015e934",
+    "command": "player.additem 0015e934"
+  },
+  {
+    "name": "Pipe Pistol Large Quick Eject Magazine",
+    "type": "Weapon Mod",
+    "id": "0015c841",
+    "command": "player.additem 0015c841"
+  },
+  {
+    "name": "Assault Rifle Drum Magazine",
+    "type": "Weapon Mod",
+    "id": "00188978",
+    "command": "player.additem 00188978"
+  },
+  {
+    "name": "Pipe Pistol Drum Magazine",
+    "type": "Weapon Mod",
+    "id": "0015c83e",
+    "command": "player.additem 0015c83e"
+  },
+  {
+    "name": "Assault Rifle Quick Eject Drum Mag",
+    "type": "Weapon Mod",
+    "id": "00188979",
+    "command": "player.additem 00188979"
+  },
+  {
+    "name": "Pipe Pistol Quick Eject Drum Mag",
+    "type": "Weapon Mod",
+    "id": "0015c83f",
+    "command": "player.additem 0015c83f"
+  },
+  {
+    "name": "10mm Pistol Standard Sights",
+    "type": "Weapon Mod",
+    "id": "001a8a44",
+    "command": "player.additem 001a8a44"
+  },
+  {
+    "name": "Assault Rifle Standard Sights",
+    "type": "Weapon Mod",
+    "id": "001a8a4d",
+    "command": "player.additem 001a8a4d"
+  },
+  {
+    "name": "Combat Rifle Standard Sights",
+    "type": "Weapon Mod",
+    "id": "001a8a54",
+    "command": "player.additem 001a8a54"
+  },
+  {
+    "name": "Hunting Rifle Standard Sights",
+    "type": "Weapon Mod",
+    "id": "0015503d",
+    "command": "player.additem 0015503d"
+  },
+  {
+    "name": "Pipe Pistol Standard Sights",
+    "type": "Weapon Mod",
+    "id": "001a8a97",
+    "command": "player.additem 001a8a97"
+  },
+  {
+    "name": "Revolver Standard Sights",
+    "type": "Weapon Mod",
+    "id": "001a8a9b",
+    "command": "player.additem 001a8a9b"
+  },
+  {
+    "name": "Bolt-action Standard Sights",
+    "type": "Weapon Mod",
+    "id": "001a8a91",
+    "command": "player.additem 001a8a91"
+  },
+  {
+    "name": "10mm Pistol Glow Sights",
+    "type": "Weapon Mod",
+    "id": "0015bd78",
+    "command": "player.additem 0015bd78"
+  },
+  {
+    "name": "Combat Rifle Glow Sights",
+    "type": "Weapon Mod",
+    "id": "00185c08",
+    "command": "player.additem 00185c08"
+  },
+  {
+    "name": "Hunting Rifle Glow Sights",
+    "type": "Weapon Mod",
+    "id": "0015503c",
+    "command": "player.additem 0015503c"
+  },
+  {
+    "name": "Pipe Pistol Glow Sights",
+    "type": "Weapon Mod",
+    "id": "0015c85e",
+    "command": "player.additem 0015c85e"
+  },
+  {
+    "name": "Revolver Glow Sights",
+    "type": "Weapon Mod",
+    "id": "0015c8a2",
+    "command": "player.additem 0015c8a2"
+  },
+  {
+    "name": "Bolt-action Glow Sights",
+    "type": "Weapon Mod",
+    "id": "0015c883",
+    "command": "player.additem 0015c883"
+  },
+  {
+    "name": "Pipe Pistol Glow Reflex Sight",
+    "type": "Weapon Mod",
+    "id": "0022ba9e",
+    "command": "player.additem 0022ba9e"
+  },
+  {
+    "name": "Revolver Glow Reflex Sight",
+    "type": "Weapon Mod",
+    "id": "0022ba9d",
+    "command": "player.additem 0022ba9d"
+  },
+  {
+    "name": "Bolt-action Glow Reflex Sight",
+    "type": "Weapon Mod",
+    "id": "0022ba9f",
+    "command": "player.additem 0022ba9f"
+  },
+  {
+    "name": "10mm Pistol Reflex Sight (dot)",
+    "type": "Weapon Mod",
+    "id": "0015bd76",
+    "command": "player.additem 0015bd76"
+  },
+  {
+    "name": "Assault Rifle Reflex Sight (dot)",
+    "type": "Weapon Mod",
+    "id": "00188967",
+    "command": "player.additem 00188967"
+  },
+  {
+    "name": "Combat Rifle Reflex Sight (dot)",
+    "type": "Weapon Mod",
+    "id": "0018004d",
+    "command": "player.additem 0018004d"
+  },
+  {
+    "name": "Hunting Rifle Reflex Sight (dot)",
+    "type": "Weapon Mod",
+    "id": "0015503b",
+    "command": "player.additem 0015503b"
+  },
+  {
+    "name": "Pipe Pistol Reflex Sight (dot)",
+    "type": "Weapon Mod",
+    "id": "0015c85d",
+    "command": "player.additem 0015c85d"
+  },
+  {
+    "name": "Revolver Reflex Sight (dot)",
+    "type": "Weapon Mod",
+    "id": "0015c8a1",
+    "command": "player.additem 0015c8a1"
+  },
+  {
+    "name": "Bolt-action Reflex Sight (dot)",
+    "type": "Weapon Mod",
+    "id": "0015c882",
+    "command": "player.additem 0015c882"
+  },
+  {
+    "name": "10mm Pistol Reflex Sight (circle)",
+    "type": "Weapon Mod",
+    "id": "0015bd77",
+    "command": "player.additem 0015bd77"
+  },
+  {
+    "name": "Assault Rifle Reflex Sight (circle)",
+    "type": "Weapon Mod",
+    "id": "001f425b",
+    "command": "player.additem 001f425b"
+  },
+  {
+    "name": "Combat Rifle Reflex Sight (circle)",
+    "type": "Weapon Mod",
+    "id": "00185bf8",
+    "command": "player.additem 00185bf8"
+  },
+  {
+    "name": "Assault Rifle Short Scope",
+    "type": "Weapon Mod",
+    "id": "00188963",
+    "command": "player.additem 00188963"
+  },
+  {
+    "name": "Combat Rifle Short Scope",
+    "type": "Weapon Mod",
+    "id": "00185bf4",
+    "command": "player.additem 00185bf4"
+  },
+  {
+    "name": "Hunting Rifle Short Scope",
+    "type": "Weapon Mod",
+    "id": "0015e940",
+    "command": "player.additem 0015e940"
+  },
+  {
+    "name": "Pipe Pistol Short Scope",
+    "type": "Weapon Mod",
+    "id": "0015c85c",
+    "command": "player.additem 0015c85c"
+  },
+  {
+    "name": "Revolver Short Scope",
+    "type": "Weapon Mod",
+    "id": "0015c8a0",
+    "command": "player.additem 0015c8a0"
+  },
+  {
+    "name": "Bolt-action Short Scope",
+    "type": "Weapon Mod",
+    "id": "0015c881",
+    "command": "player.additem 0015c881"
+  },
+  {
+    "name": "Assault Rifle Medium Scope",
+    "type": "Weapon Mod",
+    "id": "00188961",
+    "command": "player.additem 00188961"
+  },
+  {
+    "name": "Combat Rifle Medium Scope",
+    "type": "Weapon Mod",
+    "id": "00185bf2",
+    "command": "player.additem 00185bf2"
+  },
+  {
+    "name": "Hunting Rifle Medium Scope",
+    "type": "Weapon Mod",
+    "id": "0015e93e",
+    "command": "player.additem 0015e93e"
+  },
+  {
+    "name": "Pipe Pistol Medium Scope",
+    "type": "Weapon Mod",
+    "id": "0015c85b",
+    "command": "player.additem 0015c85b"
+  },
+  {
+    "name": "Revolver Medium Scope",
+    "type": "Weapon Mod",
+    "id": "0015c89f",
+    "command": "player.additem 0015c89f"
+  },
+  {
+    "name": "Bolt-action Medium Scope",
+    "type": "Weapon Mod",
+    "id": "0015c880",
+    "command": "player.additem 0015c880"
+  },
+  {
+    "name": "Assault Rifle Long Scope",
+    "type": "Weapon Mod",
+    "id": "0018895f",
+    "command": "player.additem 0018895f"
+  },
+  {
+    "name": "Combat Rifle Long Scope",
+    "type": "Weapon Mod",
+    "id": "00185bf0",
+    "command": "player.additem 00185bf0"
+  },
+  {
+    "name": "Hunting Rifle Long Scope",
+    "type": "Weapon Mod",
+    "id": "0015e93c",
+    "command": "player.additem 0015e93c"
+  },
+  {
+    "name": "Pipe Pistol Long Scope",
+    "type": "Weapon Mod",
+    "id": "001916b3",
+    "command": "player.additem 001916b3"
+  },
+  {
+    "name": "Revolver Long Scope",
+    "type": "Weapon Mod",
+    "id": "001916ba",
+    "command": "player.additem 001916ba"
+  },
+  {
+    "name": "Bolt-action Long Scope",
+    "type": "Weapon Mod",
+    "id": "001916ad",
+    "command": "player.additem 001916ad"
+  },
+  {
+    "name": "Assault Rifle Short Night Vision Scope",
+    "type": "Weapon Mod",
+    "id": "00188964",
+    "command": "player.additem 00188964"
+  },
+  {
+    "name": "Combat Rifle Short Night Vision Scope",
+    "type": "Weapon Mod",
+    "id": "00185bf5",
+    "command": "player.additem 00185bf5"
+  },
+  {
+    "name": "Hunting Rifle Short Night Vision Scope",
+    "type": "Weapon Mod",
+    "id": "0015e941",
+    "command": "player.additem 0015e941"
+  },
+  {
+    "name": "Pipe Pistol Short Night Vision Scope",
+    "type": "Weapon Mod",
+    "id": "001916b6",
+    "command": "player.additem 001916b6"
+  },
+  {
+    "name": "Revolver Short Night Vision Scope",
+    "type": "Weapon Mod",
+    "id": "001916bd",
+    "command": "player.additem 001916bd"
+  },
+  {
+    "name": "Bolt-action Short Night Vision Scope",
+    "type": "Weapon Mod",
+    "id": "001916b0",
+    "command": "player.additem 001916b0"
+  },
+  {
+    "name": "Assault Rifle Medium Night Vision Scope",
+    "type": "Weapon Mod",
+    "id": "00188962",
+    "command": "player.additem 00188962"
+  },
+  {
+    "name": "Combat Rifle Medium Night Vision Scope",
+    "type": "Weapon Mod",
+    "id": "00185bf3",
+    "command": "player.additem 00185bf3"
+  },
+  {
+    "name": "Hunting Rifle Medium Night Vision Scope",
+    "type": "Weapon Mod",
+    "id": "0015e93f",
+    "command": "player.additem 0015e93f"
+  },
+  {
+    "name": "Pipe Pistol Medium Night Vision Scope",
+    "type": "Weapon Mod",
+    "id": "001916b5",
+    "command": "player.additem 001916b5"
+  },
+  {
+    "name": "Revolver Medium Night Vision Scope",
+    "type": "Weapon Mod",
+    "id": "001916bc",
+    "command": "player.additem 001916bc"
+  },
+  {
+    "name": "Bolt-action Medium Night Vision Scope",
+    "type": "Weapon Mod",
+    "id": "001916af",
+    "command": "player.additem 001916af"
+  },
+  {
+    "name": "Assault Rifle Long Night Vision Scope",
+    "type": "Weapon Mod",
+    "id": "00188960",
+    "command": "player.additem 00188960"
+  },
+  {
+    "name": "Combat Rifle Long Night Vision Scope",
+    "type": "Weapon Mod",
+    "id": "00185bf1",
+    "command": "player.additem 00185bf1"
+  },
+  {
+    "name": "Hunting Rifle Long Night Vision Scope",
+    "type": "Weapon Mod",
+    "id": "0015e93d",
+    "command": "player.additem 0015e93d"
+  },
+  {
+    "name": "Pipe Pistol Long Night Vision Scope",
+    "type": "Weapon Mod",
+    "id": "001916b4",
+    "command": "player.additem 001916b4"
+  },
+  {
+    "name": "Revolver Long Night Vision Scope",
+    "type": "Weapon Mod",
+    "id": "001916bb",
+    "command": "player.additem 001916bb"
+  },
+  {
+    "name": "Bolt-action Long Night Vision Scope",
+    "type": "Weapon Mod",
+    "id": "001916ae",
+    "command": "player.additem 001916ae"
+  },
+  {
+    "name": "10mm Pistol Recon Scope",
+    "type": "Weapon Mod",
+    "id": "00184c58",
+    "command": "player.additem 00184c58"
+  },
+  {
+    "name": "Assault Rifle Short Recon Scope",
+    "type": "Weapon Mod",
+    "id": "002492d6",
+    "command": "player.additem 002492d6"
+  },
+  {
+    "name": "Combat Rifle Short Recon Scope",
+    "type": "Weapon Mod",
+    "id": "002492d7",
+    "command": "player.additem 002492d7"
+  },
+  {
+    "name": "Hunting Rifle Short Recon Scope",
+    "type": "Weapon Mod",
+    "id": "002492da",
+    "command": "player.additem 002492da"
+  },
+  {
+    "name": "Pipe Pistol Short Recon Scope",
+    "type": "Weapon Mod",
+    "id": "002492df",
+    "command": "player.additem 002492df"
+  },
+  {
+    "name": "Revolver Short Recon Scope",
+    "type": "Weapon Mod",
+    "id": "002492e0",
+    "command": "player.additem 002492e0"
+  },
+  {
+    "name": "Bolt-action Short Recon Scope",
+    "type": "Weapon Mod",
+    "id": "002492de",
+    "command": "player.additem 002492de"
+  },
+  {
+    "name": "Assault Rifle Long Recon Scope",
+    "type": "Weapon Mod",
+    "id": "00188966",
+    "command": "player.additem 00188966"
+  },
+  {
+    "name": "Combat Rifle Long Recon Scope",
+    "type": "Weapon Mod",
+    "id": "00185bf7",
+    "command": "player.additem 00185bf7"
+  },
+  {
+    "name": "Hunting Rifle Long Recon Scope",
+    "type": "Weapon Mod",
+    "id": "0015503a",
+    "command": "player.additem 0015503a"
+  },
+  {
+    "name": "Pipe Pistol Long Recon Scope",
+    "type": "Weapon Mod",
+    "id": "001916b8",
+    "command": "player.additem 001916b8"
+  },
+  {
+    "name": "Revolver Long Recon Scope",
+    "type": "Weapon Mod",
+    "id": "001916bf",
+    "command": "player.additem 001916bf"
+  },
+  {
+    "name": "Bolt-action Long Recon Scope",
+    "type": "Weapon Mod",
+    "id": "001916b2",
+    "command": "player.additem 001916b2"
+  },
+  {
+    "name": "Hunting Rifle Bayonet",
+    "type": "Weapon Mod",
+    "id": "0015e937",
+    "command": "player.additem 0015e937"
+  },
+  {
+    "name": "Pipe Pistol Small Bayonet",
+    "type": "Weapon Mod",
+    "id": "0015c845",
+    "command": "player.additem 0015c845"
+  },
+  {
+    "name": "Revolver Small Bayonet",
+    "type": "Weapon Mod",
+    "id": "0015c891",
+    "command": "player.additem 0015c891"
+  },
+  {
+    "name": "Bolt-action Small Bayonet",
+    "type": "Weapon Mod",
+    "id": "0015c872",
+    "command": "player.additem 0015c872"
+  },
+  {
+    "name": "Combat Rifle Large Bayonet",
+    "type": "Weapon Mod",
+    "id": "00185bdc",
+    "command": "player.additem 00185bdc"
+  },
+  {
+    "name": "Pipe Pistol Large Bayonet",
+    "type": "Weapon Mod",
+    "id": "0015c844",
+    "command": "player.additem 0015c844"
+  },
+  {
+    "name": "Revolver Large Bayonet",
+    "type": "Weapon Mod",
+    "id": "0015c890",
+    "command": "player.additem 0015c890"
+  },
+  {
+    "name": "Bolt-action Large Bayonet",
+    "type": "Weapon Mod",
+    "id": "0015c871",
+    "command": "player.additem 0015c871"
+  },
+  {
+    "name": "10mm Pistol Compensator",
+    "type": "Weapon Mod",
+    "id": "0015bd64",
+    "command": "player.additem 0015bd64"
+  },
+  {
+    "name": "Assault Rifle Compensator",
+    "type": "Weapon Mod",
+    "id": "0018894f",
+    "command": "player.additem 0018894f"
+  },
+  {
+    "name": "Combat Rifle Compensator",
+    "type": "Weapon Mod",
+    "id": "00185bde",
+    "command": "player.additem 00185bde"
+  },
+  {
+    "name": "Hunting Rifle Compensator",
+    "type": "Weapon Mod",
+    "id": "0015e938",
+    "command": "player.additem 0015e938"
+  },
+  {
+    "name": "Pipe Pistol Compensator",
+    "type": "Weapon Mod",
+    "id": "0015c846",
+    "command": "player.additem 0015c846"
+  },
+  {
+    "name": "Revolver Compensator",
+    "type": "Weapon Mod",
+    "id": "0015c892",
+    "command": "player.additem 0015c892"
+  },
+  {
+    "name": "Bolt-action Compensator",
+    "type": "Weapon Mod",
+    "id": "0015c873",
+    "command": "player.additem 0015c873"
+  },
+  {
+    "name": "10mm Pistol Muzzle Brake",
+    "type": "Weapon Mod",
+    "id": "0015bd65",
+    "command": "player.additem 0015bd65"
+  },
+  {
+    "name": "Assault Rifle Muzzle Brake",
+    "type": "Weapon Mod",
+    "id": "001916a1",
+    "command": "player.additem 001916a1"
+  },
+  {
+    "name": "Combat Rifle Muzzle Brake",
+    "type": "Weapon Mod",
+    "id": "00185bdf",
+    "command": "player.additem 00185bdf"
+  },
+  {
+    "name": "Hunting Rifle Muzzle Brake",
+    "type": "Weapon Mod",
+    "id": "0015e939",
+    "command": "player.additem 0015e939"
+  },
+  {
+    "name": "Pipe Pistol Muzzle Brake",
+    "type": "Weapon Mod",
+    "id": "0015c847",
+    "command": "player.additem 0015c847"
+  },
+  {
+    "name": "Revolver Muzzle Brake",
+    "type": "Weapon Mod",
+    "id": "0015c893",
+    "command": "player.additem 0015c893"
+  },
+  {
+    "name": "Bolt-action Muzzle Brake",
+    "type": "Weapon Mod",
+    "id": "0015c874",
+    "command": "player.additem 0015c874"
+  },
+  {
+    "name": "10mm Pistol Suppressor",
+    "type": "Weapon Mod",
+    "id": "0015bd66",
+    "command": "player.additem 0015bd66"
+  },
+  {
+    "name": "Assault Rifle Suppressor",
+    "type": "Weapon Mod",
+    "id": "00188950",
+    "command": "player.additem 00188950"
+  },
+  {
+    "name": "Combat Rifle Suppressor",
+    "type": "Weapon Mod",
+    "id": "00185be0",
+    "command": "player.additem 00185be0"
+  },
+  {
+    "name": "Hunting Rifle Suppressor",
+    "type": "Weapon Mod",
+    "id": "0015e93a",
+    "command": "player.additem 0015e93a"
+  },
+  {
+    "name": "Pipe Pistol Suppressor",
+    "type": "Weapon Mod",
+    "id": "0015c848",
+    "command": "player.additem 0015c848"
+  },
+  {
+    "name": "Revolver Suppressor",
+    "type": "Weapon Mod",
+    "id": "0015c894",
+    "command": "player.additem 0015c894"
+  },
+  {
+    "name": "Bolt-action Suppressor",
+    "type": "Weapon Mod",
+    "id": "0015c875",
+    "command": "player.additem 0015c875"
+  }
 ]

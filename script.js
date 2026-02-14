@@ -30,6 +30,7 @@ let weaponMods = {};
 let materials = {};
 let ammo = {};
 let consumables = {};
+let armor = {};
 
 const locations = {
   sanctuary: "sanctuaryext",
@@ -220,6 +221,10 @@ function createBuilder(cmd, idx) {
 
             <optgroup label="Consumables">
               ${optionsFromMap(consumables)}
+            </optgroup>
+
+            <optgroup label="Armor">
+              ${optionsFromMap(armor)}
             </optgroup>
           </select>
 
@@ -516,18 +521,19 @@ function render() {
   filtered.forEach((cmd, idx) => attachBuilderListeners(cmd, idx));
 }
 
-// Load perks.json + weapons.json + weapon-mods.json + materials.json + ammo.json + consumables.json THEN render
+// Load perks.json + weapons.json + weapon-mods.json + materials.json + ammo.json + consumables.json + armor.json THEN render
 async function init() {
   try {
     cmds.innerHTML = `<div class="empty">Loading...</div>`;
 
-    const [perksData, weaponsData, weaponModsData, materialsData, ammoData, consumablesData] = await Promise.all([
+    const [perksData, weaponsData, weaponModsData, materialsData, ammoData, consumablesData, armorData] = await Promise.all([
       loadJSON("./data/perks.json"),
       loadJSON("./data/weapons.json"),
       loadJSON("./data/weapon-mods.json"),
       loadJSON("./data/materials.json"),
       loadJSON("./data/ammo.json"),
       loadJSON("./data/consumables.json"),
+      loadJSON("./data/armor.json"),
     ]);
 
     perks = perksData;
@@ -536,6 +542,7 @@ async function init() {
     materials = arrayToMapByNameId(materialsData);
     ammo = arrayToMapByNameId(ammoData);
     consumables = arrayToMapByNameId(consumablesData);
+    armor = arrayToMapByNameId(armorData);
   } catch (err) {
     console.error(err);
     cmds.innerHTML = `<div class="empty">Failed to load JSON (check console)</div>`;

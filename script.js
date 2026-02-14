@@ -26,6 +26,7 @@ let perks = [];
 
 // JSON datasets (arrays like: [{name, id, ...}, ...])
 let weapons = {};
+let weaponMods = {};
 let materials = {};
 let ammo = {};
 let consumables = {};
@@ -203,6 +204,10 @@ function createBuilder(cmd, idx) {
 
             <optgroup label="Weapons">
               ${optionsFromMap(weapons)}
+            </optgroup>
+
+            <optgroup label="Weapon Mods">
+              ${optionsFromMap(weaponMods)}
             </optgroup>
 
             <optgroup label="Materials">
@@ -511,14 +516,15 @@ function render() {
   filtered.forEach((cmd, idx) => attachBuilderListeners(cmd, idx));
 }
 
-// Load perks.json + weapons.json + materials.json + ammo.json + consumables.json THEN render
+// Load perks.json + weapons.json + weapon-mods.json + materials.json + ammo.json + consumables.json THEN render
 async function init() {
   try {
     cmds.innerHTML = `<div class="empty">Loading...</div>`;
 
-    const [perksData, weaponsData, materialsData, ammoData, consumablesData] = await Promise.all([
+    const [perksData, weaponsData, weaponModsData, materialsData, ammoData, consumablesData] = await Promise.all([
       loadJSON("./data/perks.json"),
       loadJSON("./data/weapons.json"),
+      loadJSON("./data/weapon-mods.json"),
       loadJSON("./data/materials.json"),
       loadJSON("./data/ammo.json"),
       loadJSON("./data/consumables.json"),
@@ -526,6 +532,7 @@ async function init() {
 
     perks = perksData;
     weapons = arrayToMapByNameId(weaponsData);
+    weaponMods = arrayToMapByNameId(weaponModsData);
     materials = arrayToMapByNameId(materialsData);
     ammo = arrayToMapByNameId(ammoData);
     consumables = arrayToMapByNameId(consumablesData);

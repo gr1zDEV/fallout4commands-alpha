@@ -1,118 +1,698 @@
 [
-  { "name": ".44 Pistol", "type": "Weapon ID", "id": "000ce97d", "command": "player.additem 000ce97d" },
-  { "name": "10mm Pistol", "type": "Weapon ID", "id": "00004822", "command": "player.additem 00004822" },
-  { "name": "2076 World Series Baseball Bat", "type": "Weapon ID", "id": "000e9a43", "command": "player.additem 000e9a43" },
-  { "name": "Alien Blaster Pistol", "type": "Weapon ID", "id": "000ff995", "command": "player.additem 000ff995" },
-  { "name": "Artillery Smoke Grenade", "type": "Weapon ID", "id": "0012e2ca", "command": "player.additem 0012e2ca" },
-  { "name": "Ashmaker", "type": "Weapon ID", "id": "001f252e", "command": "player.additem 001f252e" },
-  { "name": "Assault Rifle", "type": "Weapon ID", "id": "0000463f", "command": "player.additem 0000463f" },
-  { "name": "Baseball Bat", "type": "Weapon ID", "id": "0008e736", "command": "player.additem 0008e736" },
-  { "name": "Baseball Grenade", "type": "Weapon ID", "id": "00107bd6", "command": "player.additem 00107bd6" },
-  { "name": "Big Boy", "type": "Weapon ID", "id": "0021a53e", "command": "player.additem 0021a53e" },
-  { "name": "Big Jim", "type": "Weapon ID", "id": "0023e5ec", "command": "player.additem 0023e5ec" },
-  { "name": "Board", "type": "Weapon ID", "id": "0005c250", "command": "player.additem 0005c250" },
-  { "name": "Bottlecap Mine", "type": "Weapon ID", "id": "0010771f", "command": "player.additem 0010771f" },
-  { "name": "Boxing Glove", "type": "Weapon ID", "id": "0016498f", "command": "player.additem 0016498f" },
-  { "name": "Broadsider", "type": "Weapon ID", "id": "000fd11b", "command": "player.additem 000fd11b" },
-  { "name": "Combat Knife", "type": "Weapon ID", "id": "000913ca", "command": "player.additem 000913ca" },
-  { "name": "Combat Shotgun", "type": "Weapon ID", "id": "0014831c", "command": "player.additem 0014831c" },
-  { "name": "Cryo Mine", "type": "Weapon ID", "id": "0010c669", "command": "player.additem 0010c669" },
-  { "name": "Cryogenic Grenade", "type": "Weapon ID", "id": "000ff21d", "command": "player.additem 000ff21d" },
-  { "name": "Cryolator", "type": "Weapon ID", "id": "00171b2b", "command": "player.additem 00171b2b" },
-  { "name": "Death From Above", "type": "Weapon ID", "id": "00225969", "command": "player.additem 00225969" },
-  { "name": "Deathclaw Gauntlet", "type": "Weapon ID", "id": "000d8576", "command": "player.additem 000d8576" },
-  { "name": "Deliverer Pistol", "type": "Weapon ID", "id": "000dc8e7", "command": "player.additem 000dc8e7" },
-  { "name": "Double-barrel Shotgun", "type": "Weapon ID", "id": "00092217", "command": "player.additem 00092217" },
-  { "name": "Eddie's Peace", "type": "Weapon ID", "id": "00225ae9", "command": "player.additem 00225ae9" },
-  { "name": "Experiment 18-A", "type": "Weapon ID", "id": "001f61e9", "command": "player.additem 001f61e9" },
-  { "name": "Fat Man", "type": "Weapon ID", "id": "000bd56f", "command": "player.additem 000bd56f" },
-  { "name": "Final Judgment", "type": "Weapon ID", "id": "00225abe", "command": "player.additem 00225abe" },
-  { "name": "Flamer", "type": "Weapon ID", "id": "000e5881", "command": "player.additem 000e5881" },
-  { "name": "Flare Gun", "type": "Weapon ID", "id": "001025ac", "command": "player.additem 001025ac" },
-  { "name": "Fragmentation Grenade", "type": "Weapon ID", "id": "000eebed", "command": "player.additem 000eebed" },
-  { "name": "Fragmentation Mine", "type": "Weapon ID", "id": "000e56c2", "command": "player.additem 000e56c2" },
-  { "name": "Gamma Gun", "type": "Weapon ID", "id": "000ddb7c", "command": "player.additem 000ddb7c" },
-  { "name": "Gatling Laser", "type": "Weapon ID", "id": "000e27bc", "command": "player.additem 000e27bc" },
-  { "name": "Gauss Rifle", "type": "Weapon ID", "id": "000d1eb0", "command": "player.additem 000d1eb0" },
-  { "name": "Good Intentions", "type": "Weapon ID", "id": "0022537b", "command": "player.additem 0022537b" },
-  { "name": "Grognak's Axe", "type": "Weapon ID", "id": "00183fcd", "command": "player.additem 00183fcd" },
-  { "name": "Hallucigen Gas Grenade", "type": "Weapon ID", "id": "000e98e5", "command": "player.additem 000e98e5" },
-  { "name": "Homing Beacon", "type": "Weapon ID", "id": "00065dec", "command": "player.additem 00065dec" },
-  { "name": "Hunting Rifle", "type": "Weapon ID", "id": "0004f46a", "command": "player.additem 0004f46a" },
-  { "name": "Institute Beacon", "type": "Weapon ID", "id": "00174f8f", "command": "player.additem 00174f8f" },
-  { "name": "Institute EM Pulse Grenade", "type": "Weapon ID", "id": "0018325e", "command": "player.additem 0018325e" },
-  { "name": "Institute Rifle", "type": "Weapon ID", "id": "001633cc", "command": "player.additem 001633cc" },
-  { "name": "Institute Pistol", "type": "Weapon ID", "id": "001633cc", "command": "player.additem 001633cc" },
-  { "name": "Junk Jet", "type": "Weapon ID", "id": "000e942b", "command": "player.additem 000e942b" },
-  { "name": "Justice", "type": "Weapon ID", "id": "001f61e4", "command": "player.additem 001f61e4" },
-  { "name": "Kellogg's Pistol", "type": "Weapon ID", "id": "00225ac1", "command": "player.additem 00225ac1" },
-  { "name": "Knuckles", "type": "Weapon ID", "id": "0005524b", "command": "player.additem 0005524b" },
-  { "name": "Kremvh's Tooth", "type": "Weapon ID", "id": "0022576d", "command": "player.additem 0022576d" },
-  { "name": "Laser Pistol", "type": "Weapon ID", "id": "0009983b", "command": "player.additem 0009983b" },
-  { "name": "Laser Rifle", "type": "Weapon ID", "id": "0009983b", "command": "player.additem 0009983b" },
-  { "name": "Laser Musket", "type": "Weapon ID", "id": "0001dacf", "command": "player.additem 0001dacf" },
-  { "name": "Le Fusil Terribles", "type": "Weapon ID", "id": "00225771", "command": "player.additem 00225771" },
-  { "name": "Lead Pipe", "type": "Weapon ID", "id": "000fc9c3", "command": "player.additem 000fc9c3" },
-  { "name": "Machete", "type": "Weapon ID", "id": "00033fe0", "command": "player.additem 00033fe0" },
-  { "name": "Minigun", "type": "Weapon ID", "id": "0001f669", "command": "player.additem 0001f669" },
-  { "name": "Missile Launcher", "type": "Weapon ID", "id": "0003f6f8", "command": "player.additem 0003f6f8" },
-  { "name": "Molotov Cocktail", "type": "Weapon ID", "id": "0010c3c6", "command": "player.additem 0010c3c6" },
-  { "name": "Nuka Grenade", "type": "Weapon ID", "id": "000e5750", "command": "player.additem 000e5750" },
-  { "name": "Nuke Mine", "type": "Weapon ID", "id": "0010a340", "command": "player.additem 0010a340" },
-  { "name": "Old Faithful", "type": "Weapon ID", "id": "001f61e2", "command": "player.additem 001f61e2" },
-  { "name": "Overseer's Guardian", "type": "Weapon ID", "id": "001f61e7", "command": "player.additem 001f61e7" },
-  { "name": "Partystarter", "type": "Weapon ID", "id": "001f61e5", "command": "player.additem 001f61e5" },
-  { "name": "Pickman's Blade", "type": "Weapon ID", "id": "0022595f", "command": "player.additem 0022595f" },
-  { "name": "Pipe Bolt-action Rifle", "type": "Weapon ID", "id": "0014831a", "command": "player.additem 0014831a" },
-  { "name": "Pipe Rifle", "type": "Weapon ID", "id": "00024f55", "command": "player.additem 00024f55" },
-  { "name": "Pipe Revolver Rifle", "type": "Weapon ID", "id": "0014831b", "command": "player.additem 0014831b" },
-  { "name": "Pipe Wrench", "type": "Weapon ID", "id": "000d83bf", "command": "player.additem 000d83bf" },
-  { "name": "Plasma Grenade", "type": "Weapon ID", "id": "0010a33d", "command": "player.additem 0010a33d" },
-  { "name": "Plasma Pistol", "type": "Weapon ID", "id": "00100ae9", "command": "player.additem 00100ae9" },
-  { "name": "Plasma Mine", "type": "Weapon ID", "id": "0010a342", "command": "player.additem 0010a342" },
-  { "name": "Pool Cue", "type": "Weapon ID", "id": "000fa3e8", "command": "player.additem 000fa3e8" },
-  { "name": "Power Fist", "type": "Weapon ID", "id": "0011b336", "command": "player.additem 0011b336" },
-  { "name": "Limitless Potential", "type": "Weapon ID", "id": "0023e5ee", "command": "player.additem 0023e5ee" },
-  { "name": "Pulse Grenade", "type": "Weapon ID", "id": "000ff21f", "command": "player.additem 000ff21f" },
-  { "name": "Pulse Mine", "type": "Weapon ID", "id": "0010a344", "command": "player.additem 0010a344" },
-  { "name": "Railway Rifle", "type": "Weapon ID", "id": "000fe268", "command": "player.additem 000fe268" },
-  { "name": "Reba", "type": "Weapon ID", "id": "001abc92", "command": "player.additem 001abc92" },
-  { "name": "Reba II", "type": "Weapon ID", "id": "001abc93", "command": "player.additem 001abc93" },
-  { "name": "Reckoning", "type": "Weapon ID", "id": "0022b604", "command": "player.additem 0022b604" },
-  { "name": "Revolutionary Sword", "type": "Weapon ID", "id": "00143ab5", "command": "player.additem 00143ab5" },
-  { "name": "Righteous Authority", "type": "Weapon ID", "id": "00225963", "command": "player.additem 00225963" },
-  { "name": "Ripper", "type": "Weapon ID", "id": "000fa2f6", "command": "player.additem 000fa2f6" },
-  { "name": "Rockville Slugger", "type": "Weapon ID", "id": "001f2674", "command": "player.additem 001f2674" },
-  { "name": "Rolling Pin", "type": "Weapon ID", "id": "00142fab", "command": "player.additem 00142fab" },
-  { "name": "Security Baton", "type": "Weapon ID", "id": "0008c14d", "command": "player.additem 0008c14d" },
-  { "name": "Sentinel's Plasmacaster", "type": "Weapon ID", "id": "00225967", "command": "player.additem 00225967" },
-  { "name": "Shem Drowne's Sword", "type": "Weapon ID", "id": "00238734", "command": "player.additem 00238734" },
-  { "name": "Shishkebab", "type": "Weapon ID", "id": "000fa2fb", "command": "player.additem 000fa2fb" },
-  { "name": "Sledgehammer", "type": "Weapon ID", "id": "000e7ab9", "command": "player.additem 000e7ab9" },
-  { "name": "Spray N' Pray", "type": "Weapon ID", "id": "001f61e3", "command": "player.additem 001f61e3" },
-  { "name": "Submachine Gun", "type": "Weapon ID", "id": "0015b043", "command": "player.additem 0015b043" },
-  { "name": "Super Sledge", "type": "Weapon ID", "id": "000ff964", "command": "player.additem 000ff964" },
-  { "name": "Survivor's Special", "type": "Weapon ID", "id": "00225abc", "command": "player.additem 00225abc" },
-  { "name": "Swatter", "type": "Weapon ID", "id": "00061721", "command": "player.additem 00061721" },
-  { "name": "Switchblade", "type": "Weapon ID", "id": "000fdc81", "command": "player.additem 000fdc81" },
-  { "name": "Synth Relay Grenade", "type": "Weapon ID", "id": "000589f2", "command": "player.additem 000589f2" },
-  { "name": "The Gainer", "type": "Weapon ID", "id": "00225ae7", "command": "player.additem 00225ae7" },
-  { "name": "The Last Minute", "type": "Weapon ID", "id": "0022b603", "command": "player.additem 0022b603" },
-  { "name": "Tinker Tom Special", "type": "Weapon ID", "id": "001f2675", "command": "player.additem 001f2675" },
-  { "name": "Tire Iron", "type": "Weapon ID", "id": "00185d25", "command": "player.additem 00185d25" },
-  { "name": "Vertibird Signal Grenade", "type": "Weapon ID", "id": "00056917", "command": "player.additem 00056917" },
-  { "name": "Virgil's Rifle", "type": "Weapon ID", "id": "00225aba", "command": "player.additem 00225aba" },
-  { "name": "Walking Cane", "type": "Weapon ID", "id": "000fdc7d", "command": "player.additem 000fdc7d" },
-  { "name": "Wastelander's Friend", "type": "Weapon ID", "id": "001f61e6", "command": "player.additem 001f61e6" },
-  { "name": "Wazer Wifle", "type": "Weapon ID", "id": "00225965", "command": "player.additem 00225965" },
-  { "name": "Zao's Sword", "type": "Weapon ID", "id": "001f0860", "command": "player.additem 001f0860" },
-  { "name": "Zeta Gun", "type": "Weapon ID", "id": "002266fc", "command": "player.additem 002266fc" },
-  { "name": "Chinese Officer Sword", "type": "Weapon ID", "id": "00147be4", "command": "player.additem 00147be4" },
-  { "name": "General Chao's Revenge", "type": "Weapon ID", "id": "00248387", "command": "player.additem 00248387" },
-  { "name": "Nail Gun", "type": "Weapon ID", "id": "fe007204", "command": "player.additem fe007204" },
-  { "name": "Saw Blade Launcher", "type": "Weapon ID", "id": "fe00704b", "command": "player.additem fe00704b" },
-  { "name": "Piggy Bank Mine", "type": "Weapon ID", "id": "fe007126", "command": "player.additem fe007126" },
-  { "name": "Baseball Launcher", "type": "Weapon ID", "id": "fe007152", "command": "player.additem fe007152" },
-  { "name": "Tesla Cannon", "type": "Weapon ID", "id": "fe006f99", "command": "player.additem fe006f99" },
-  { "name": "Heavy Incinerator", "type": "Weapon ID", "id": "fe002809", "command": "player.additem fe002809" }
+  {
+    "name": ".44 Pistol",
+    "type": "Weapon ID",
+    "id": "000ce97d",
+    "command": "player.additem 000ce97d"
+  },
+  {
+    "name": "10mm Pistol",
+    "type": "Weapon ID",
+    "id": "00004822",
+    "command": "player.additem 00004822"
+  },
+  {
+    "name": "2076 World Series Baseball Bat",
+    "type": "Weapon ID",
+    "id": "000e9a43",
+    "command": "player.additem 000e9a43"
+  },
+  {
+    "name": "Alien Blaster Pistol",
+    "type": "Weapon ID",
+    "id": "000ff995",
+    "command": "player.additem 000ff995"
+  },
+  {
+    "name": "Artillery Smoke Grenade",
+    "type": "Weapon ID",
+    "id": "0012e2ca",
+    "command": "player.additem 0012e2ca"
+  },
+  {
+    "name": "Ashmaker",
+    "type": "Weapon ID",
+    "id": "001f252e",
+    "command": "player.additem 001f252e"
+  },
+  {
+    "name": "Assault Rifle",
+    "type": "Weapon ID",
+    "id": "0000463f",
+    "command": "player.additem 0000463f"
+  },
+  {
+    "name": "Baseball Bat",
+    "type": "Weapon ID",
+    "id": "0008e736",
+    "command": "player.additem 0008e736"
+  },
+  {
+    "name": "Baseball Grenade",
+    "type": "Weapon ID",
+    "id": "00107bd6",
+    "command": "player.additem 00107bd6"
+  },
+  {
+    "name": "Big Boy",
+    "type": "Weapon ID",
+    "id": "0021a53e",
+    "command": "player.additem 0021a53e"
+  },
+  {
+    "name": "Big Jim",
+    "type": "Weapon ID",
+    "id": "0023e5ec",
+    "command": "player.additem 0023e5ec"
+  },
+  {
+    "name": "Board",
+    "type": "Weapon ID",
+    "id": "0005c250",
+    "command": "player.additem 0005c250"
+  },
+  {
+    "name": "Bottlecap Mine",
+    "type": "Weapon ID",
+    "id": "0010771f",
+    "command": "player.additem 0010771f"
+  },
+  {
+    "name": "Boxing Glove",
+    "type": "Weapon ID",
+    "id": "0016498f",
+    "command": "player.additem 0016498f"
+  },
+  {
+    "name": "Broadsider",
+    "type": "Weapon ID",
+    "id": "000fd11b",
+    "command": "player.additem 000fd11b"
+  },
+  {
+    "name": "Combat Knife",
+    "type": "Weapon ID",
+    "id": "000913ca",
+    "command": "player.additem 000913ca"
+  },
+  {
+    "name": "Combat Shotgun",
+    "type": "Weapon ID",
+    "id": "0014831c",
+    "command": "player.additem 0014831c"
+  },
+  {
+    "name": "Cryo Mine",
+    "type": "Weapon ID",
+    "id": "0010c669",
+    "command": "player.additem 0010c669"
+  },
+  {
+    "name": "Cryogenic Grenade",
+    "type": "Weapon ID",
+    "id": "000ff21d",
+    "command": "player.additem 000ff21d"
+  },
+  {
+    "name": "Cryolator",
+    "type": "Weapon ID",
+    "id": "00171b2b",
+    "command": "player.additem 00171b2b"
+  },
+  {
+    "name": "Death From Above",
+    "type": "Weapon ID",
+    "id": "00225969",
+    "command": "player.additem 00225969"
+  },
+  {
+    "name": "Deathclaw Gauntlet",
+    "type": "Weapon ID",
+    "id": "000d8576",
+    "command": "player.additem 000d8576"
+  },
+  {
+    "name": "Deliverer Pistol",
+    "type": "Weapon ID",
+    "id": "000dc8e7",
+    "command": "player.additem 000dc8e7"
+  },
+  {
+    "name": "Double-barrel Shotgun",
+    "type": "Weapon ID",
+    "id": "00092217",
+    "command": "player.additem 00092217"
+  },
+  {
+    "name": "Eddie's Peace",
+    "type": "Weapon ID",
+    "id": "00225ae9",
+    "command": "player.additem 00225ae9"
+  },
+  {
+    "name": "Experiment 18-A",
+    "type": "Weapon ID",
+    "id": "001f61e9",
+    "command": "player.additem 001f61e9"
+  },
+  {
+    "name": "Fat Man",
+    "type": "Weapon ID",
+    "id": "000bd56f",
+    "command": "player.additem 000bd56f"
+  },
+  {
+    "name": "Final Judgment",
+    "type": "Weapon ID",
+    "id": "00225abe",
+    "command": "player.additem 00225abe"
+  },
+  {
+    "name": "Flamer",
+    "type": "Weapon ID",
+    "id": "000e5881",
+    "command": "player.additem 000e5881"
+  },
+  {
+    "name": "Flare Gun",
+    "type": "Weapon ID",
+    "id": "001025ac",
+    "command": "player.additem 001025ac"
+  },
+  {
+    "name": "Fragmentation Grenade",
+    "type": "Weapon ID",
+    "id": "000eebed",
+    "command": "player.additem 000eebed"
+  },
+  {
+    "name": "Fragmentation Mine",
+    "type": "Weapon ID",
+    "id": "000e56c2",
+    "command": "player.additem 000e56c2"
+  },
+  {
+    "name": "Gamma Gun",
+    "type": "Weapon ID",
+    "id": "000ddb7c",
+    "command": "player.additem 000ddb7c"
+  },
+  {
+    "name": "Gatling Laser",
+    "type": "Weapon ID",
+    "id": "000e27bc",
+    "command": "player.additem 000e27bc"
+  },
+  {
+    "name": "Gauss Rifle",
+    "type": "Weapon ID",
+    "id": "000d1eb0",
+    "command": "player.additem 000d1eb0"
+  },
+  {
+    "name": "Good Intentions",
+    "type": "Weapon ID",
+    "id": "0022537b",
+    "command": "player.additem 0022537b"
+  },
+  {
+    "name": "Grognak's Axe",
+    "type": "Weapon ID",
+    "id": "00183fcd",
+    "command": "player.additem 00183fcd"
+  },
+  {
+    "name": "Hallucigen Gas Grenade",
+    "type": "Weapon ID",
+    "id": "000e98e5",
+    "command": "player.additem 000e98e5"
+  },
+  {
+    "name": "Homing Beacon",
+    "type": "Weapon ID",
+    "id": "00065dec",
+    "command": "player.additem 00065dec"
+  },
+  {
+    "name": "Hunting Rifle",
+    "type": "Weapon ID",
+    "id": "0004f46a",
+    "command": "player.additem 0004f46a"
+  },
+  {
+    "name": "Institute Beacon",
+    "type": "Weapon ID",
+    "id": "00174f8f",
+    "command": "player.additem 00174f8f"
+  },
+  {
+    "name": "Institute EM Pulse Grenade",
+    "type": "Weapon ID",
+    "id": "0018325e",
+    "command": "player.additem 0018325e"
+  },
+  {
+    "name": "Institute Rifle",
+    "type": "Weapon ID",
+    "id": "001633cc",
+    "command": "player.additem 001633cc"
+  },
+  {
+    "name": "Institute Pistol",
+    "type": "Weapon ID",
+    "id": "001633cc",
+    "command": "player.additem 001633cc"
+  },
+  {
+    "name": "Junk Jet",
+    "type": "Weapon ID",
+    "id": "000e942b",
+    "command": "player.additem 000e942b"
+  },
+  {
+    "name": "Justice",
+    "type": "Weapon ID",
+    "id": "001f61e4",
+    "command": "player.additem 001f61e4"
+  },
+  {
+    "name": "Kellogg's Pistol",
+    "type": "Weapon ID",
+    "id": "00225ac1",
+    "command": "player.additem 00225ac1"
+  },
+  {
+    "name": "Knuckles",
+    "type": "Weapon ID",
+    "id": "0005524b",
+    "command": "player.additem 0005524b"
+  },
+  {
+    "name": "Kremvh's Tooth",
+    "type": "Weapon ID",
+    "id": "0022576d",
+    "command": "player.additem 0022576d"
+  },
+  {
+    "name": "Laser Pistol",
+    "type": "Weapon ID",
+    "id": "0009983b",
+    "command": "player.additem 0009983b"
+  },
+  {
+    "name": "Laser Rifle",
+    "type": "Weapon ID",
+    "id": "0009983b",
+    "command": "player.additem 0009983b"
+  },
+  {
+    "name": "Laser Musket",
+    "type": "Weapon ID",
+    "id": "0001dacf",
+    "command": "player.additem 0001dacf"
+  },
+  {
+    "name": "Le Fusil Terribles",
+    "type": "Weapon ID",
+    "id": "00225771",
+    "command": "player.additem 00225771"
+  },
+  {
+    "name": "Lead Pipe",
+    "type": "Weapon ID",
+    "id": "000fc9c3",
+    "command": "player.additem 000fc9c3"
+  },
+  {
+    "name": "Machete",
+    "type": "Weapon ID",
+    "id": "00033fe0",
+    "command": "player.additem 00033fe0"
+  },
+  {
+    "name": "Minigun",
+    "type": "Weapon ID",
+    "id": "0001f669",
+    "command": "player.additem 0001f669"
+  },
+  {
+    "name": "Missile Launcher",
+    "type": "Weapon ID",
+    "id": "0003f6f8",
+    "command": "player.additem 0003f6f8"
+  },
+  {
+    "name": "Molotov Cocktail",
+    "type": "Weapon ID",
+    "id": "0010c3c6",
+    "command": "player.additem 0010c3c6"
+  },
+  {
+    "name": "Nuka Grenade",
+    "type": "Weapon ID",
+    "id": "000e5750",
+    "command": "player.additem 000e5750"
+  },
+  {
+    "name": "Nuke Mine",
+    "type": "Weapon ID",
+    "id": "0010a340",
+    "command": "player.additem 0010a340"
+  },
+  {
+    "name": "Old Faithful",
+    "type": "Weapon ID",
+    "id": "001f61e2",
+    "command": "player.additem 001f61e2"
+  },
+  {
+    "name": "Overseer's Guardian",
+    "type": "Weapon ID",
+    "id": "001f61e7",
+    "command": "player.additem 001f61e7"
+  },
+  {
+    "name": "Partystarter",
+    "type": "Weapon ID",
+    "id": "001f61e5",
+    "command": "player.additem 001f61e5"
+  },
+  {
+    "name": "Pickman's Blade",
+    "type": "Weapon ID",
+    "id": "0022595f",
+    "command": "player.additem 0022595f"
+  },
+  {
+    "name": "Pipe Bolt-action Rifle",
+    "type": "Weapon ID",
+    "id": "0014831a",
+    "command": "player.additem 0014831a"
+  },
+  {
+    "name": "Pipe Rifle",
+    "type": "Weapon ID",
+    "id": "00024f55",
+    "command": "player.additem 00024f55"
+  },
+  {
+    "name": "Pipe Revolver Rifle",
+    "type": "Weapon ID",
+    "id": "0014831b",
+    "command": "player.additem 0014831b"
+  },
+  {
+    "name": "Pipe Wrench",
+    "type": "Weapon ID",
+    "id": "000d83bf",
+    "command": "player.additem 000d83bf"
+  },
+  {
+    "name": "Plasma Grenade",
+    "type": "Weapon ID",
+    "id": "0010a33d",
+    "command": "player.additem 0010a33d"
+  },
+  {
+    "name": "Plasma Pistol",
+    "type": "Weapon ID",
+    "id": "00100ae9",
+    "command": "player.additem 00100ae9"
+  },
+  {
+    "name": "Plasma Mine",
+    "type": "Weapon ID",
+    "id": "0010a342",
+    "command": "player.additem 0010a342"
+  },
+  {
+    "name": "Pool Cue",
+    "type": "Weapon ID",
+    "id": "000fa3e8",
+    "command": "player.additem 000fa3e8"
+  },
+  {
+    "name": "Power Fist",
+    "type": "Weapon ID",
+    "id": "0011b336",
+    "command": "player.additem 0011b336"
+  },
+  {
+    "name": "Limitless Potential",
+    "type": "Weapon ID",
+    "id": "0023e5ee",
+    "command": "player.additem 0023e5ee"
+  },
+  {
+    "name": "Pulse Grenade",
+    "type": "Weapon ID",
+    "id": "000ff21f",
+    "command": "player.additem 000ff21f"
+  },
+  {
+    "name": "Pulse Mine",
+    "type": "Weapon ID",
+    "id": "0010a344",
+    "command": "player.additem 0010a344"
+  },
+  {
+    "name": "Railway Rifle",
+    "type": "Weapon ID",
+    "id": "000fe268",
+    "command": "player.additem 000fe268"
+  },
+  {
+    "name": "Reba",
+    "type": "Weapon ID",
+    "id": "001abc92",
+    "command": "player.additem 001abc92"
+  },
+  {
+    "name": "Reba II",
+    "type": "Weapon ID",
+    "id": "001abc93",
+    "command": "player.additem 001abc93"
+  },
+  {
+    "name": "Reckoning",
+    "type": "Weapon ID",
+    "id": "0022b604",
+    "command": "player.additem 0022b604"
+  },
+  {
+    "name": "Revolutionary Sword",
+    "type": "Weapon ID",
+    "id": "00143ab5",
+    "command": "player.additem 00143ab5"
+  },
+  {
+    "name": "Righteous Authority",
+    "type": "Weapon ID",
+    "id": "00225963",
+    "command": "player.additem 00225963"
+  },
+  {
+    "name": "Ripper",
+    "type": "Weapon ID",
+    "id": "000fa2f6",
+    "command": "player.additem 000fa2f6"
+  },
+  {
+    "name": "Rockville Slugger",
+    "type": "Weapon ID",
+    "id": "001f2674",
+    "command": "player.additem 001f2674"
+  },
+  {
+    "name": "Rolling Pin",
+    "type": "Weapon ID",
+    "id": "00142fab",
+    "command": "player.additem 00142fab"
+  },
+  {
+    "name": "Security Baton",
+    "type": "Weapon ID",
+    "id": "0008c14d",
+    "command": "player.additem 0008c14d"
+  },
+  {
+    "name": "Sentinel's Plasmacaster",
+    "type": "Weapon ID",
+    "id": "00225967",
+    "command": "player.additem 00225967"
+  },
+  {
+    "name": "Shem Drowne's Sword",
+    "type": "Weapon ID",
+    "id": "00238734",
+    "command": "player.additem 00238734"
+  },
+  {
+    "name": "Shishkebab",
+    "type": "Weapon ID",
+    "id": "000fa2fb",
+    "command": "player.additem 000fa2fb"
+  },
+  {
+    "name": "Sledgehammer",
+    "type": "Weapon ID",
+    "id": "000e7ab9",
+    "command": "player.additem 000e7ab9"
+  },
+  {
+    "name": "Spray N' Pray",
+    "type": "Weapon ID",
+    "id": "001f61e3",
+    "command": "player.additem 001f61e3"
+  },
+  {
+    "name": "Submachine Gun",
+    "type": "Weapon ID",
+    "id": "0015b043",
+    "command": "player.additem 0015b043"
+  },
+  {
+    "name": "Super Sledge",
+    "type": "Weapon ID",
+    "id": "000ff964",
+    "command": "player.additem 000ff964"
+  },
+  {
+    "name": "Survivor's Special",
+    "type": "Weapon ID",
+    "id": "00225abc",
+    "command": "player.additem 00225abc"
+  },
+  {
+    "name": "Swatter",
+    "type": "Weapon ID",
+    "id": "00061721",
+    "command": "player.additem 00061721"
+  },
+  {
+    "name": "Switchblade",
+    "type": "Weapon ID",
+    "id": "000fdc81",
+    "command": "player.additem 000fdc81"
+  },
+  {
+    "name": "Synth Relay Grenade",
+    "type": "Weapon ID",
+    "id": "000589f2",
+    "command": "player.additem 000589f2"
+  },
+  {
+    "name": "The Gainer",
+    "type": "Weapon ID",
+    "id": "00225ae7",
+    "command": "player.additem 00225ae7"
+  },
+  {
+    "name": "The Last Minute",
+    "type": "Weapon ID",
+    "id": "0022b603",
+    "command": "player.additem 0022b603"
+  },
+  {
+    "name": "Tinker Tom Special",
+    "type": "Weapon ID",
+    "id": "001f2675",
+    "command": "player.additem 001f2675"
+  },
+  {
+    "name": "Tire Iron",
+    "type": "Weapon ID",
+    "id": "00185d25",
+    "command": "player.additem 00185d25"
+  },
+  {
+    "name": "Vertibird Signal Grenade",
+    "type": "Weapon ID",
+    "id": "00056917",
+    "command": "player.additem 00056917"
+  },
+  {
+    "name": "Virgil's Rifle",
+    "type": "Weapon ID",
+    "id": "00225aba",
+    "command": "player.additem 00225aba"
+  },
+  {
+    "name": "Walking Cane",
+    "type": "Weapon ID",
+    "id": "000fdc7d",
+    "command": "player.additem 000fdc7d"
+  },
+  {
+    "name": "Wastelander's Friend",
+    "type": "Weapon ID",
+    "id": "001f61e6",
+    "command": "player.additem 001f61e6"
+  },
+  {
+    "name": "Wazer Wifle",
+    "type": "Weapon ID",
+    "id": "00225965",
+    "command": "player.additem 00225965"
+  },
+  {
+    "name": "Zao's Sword",
+    "type": "Weapon ID",
+    "id": "001f0860",
+    "command": "player.additem 001f0860"
+  },
+  {
+    "name": "Zeta Gun",
+    "type": "Weapon ID",
+    "id": "002266fc",
+    "command": "player.additem 002266fc"
+  },
+  {
+    "name": "Chinese Officer Sword",
+    "type": "Weapon ID",
+    "id": "00147be4",
+    "command": "player.additem 00147be4"
+  },
+  {
+    "name": "General Chao's Revenge",
+    "type": "Weapon ID",
+    "id": "00248387",
+    "command": "player.additem 00248387"
+  },
+  {
+    "name": "Nail Gun",
+    "type": "Weapon ID",
+    "id": "fe007204",
+    "command": "player.additem fe007204"
+  },
+  {
+    "name": "Saw Blade Launcher",
+    "type": "Weapon ID",
+    "id": "fe00704b",
+    "command": "player.additem fe00704b"
+  },
+  {
+    "name": "Piggy Bank Mine",
+    "type": "Weapon ID",
+    "id": "fe007126",
+    "command": "player.additem fe007126"
+  },
+  {
+    "name": "Baseball Launcher",
+    "type": "Weapon ID",
+    "id": "fe007152",
+    "command": "player.additem fe007152"
+  },
+  {
+    "name": "Tesla Cannon",
+    "type": "Weapon ID",
+    "id": "fe006f99",
+    "command": "player.additem fe006f99"
+  },
+  {
+    "name": "Heavy Incinerator",
+    "type": "Weapon ID",
+    "id": "fe002809",
+    "command": "player.additem fe002809"
+  }
 ]
